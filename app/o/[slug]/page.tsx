@@ -76,6 +76,9 @@ export default function OpportunityPage({ params }: { params: { slug: string } }
               {o.website && o.website !== o.applyUrl && (
                 <a href={o.website} target="_blank" rel="noreferrer" className="btn-ghost !py-1.5">Website ↗</a>
               )}
+              {o.email && !o.applyUrl && (
+                <span className="chip bg-leaf-soft text-leaf !text-sm">✉ Email {o.email} — draft below</span>
+              )}
               {!o.applyUrl && !o.email && (
                 <a
                   href={`https://www.google.com/search?q=${encodeURIComponent(o.name + " sponsorship OR donation request contact Canada")}`}
