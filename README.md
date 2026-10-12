@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MSB Funding Hub
 
-## Getting Started
+Sponsorships, grants and personalized outreach for **McMaster School of Bhangra**.
 
-First, run the development server:
+- `data/opportunities.json` — the funding database (edit on GitHub to add/fix entries)
+- `scripts/build_seed.py` — the original seed script (don't re-run; it would overwrite auto-found entries)
+- A weekly scheduled research job adds new opportunities to `data/opportunities.json` and pushes; Vercel redeploys automatically.
 
-```bash
+## Run locally
+```
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Adding an opportunity
+Copy an existing entry in `data/opportunities.json`, give it a unique `slug`, and fill the fields.
+Use `"source": "auto-search"` for entries added by the weekly job so they show the **New** badge.
