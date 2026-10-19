@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-19",
   "opportunities": [
     {
       "slug": "mcmaster-undergraduate-student-initiatives-fund-usif",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-19",
       "name": "McMaster Undergraduate Student Initiatives Fund (USIF)",
       "type": "university",
       "industry": "university",
@@ -65,7 +65,7 @@
       "slug": "mcmaster-student-life-enhancement-fund-slef",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-19",
       "name": "McMaster Student Life Enhancement Fund (SLEF)",
       "type": "university",
       "industry": "university",
@@ -200,7 +200,7 @@
       "slug": "canadian-heritage-multiculturalism-anti-racism-program-events",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-19",
       "name": "Canadian Heritage – Multiculturalism & Anti-Racism Program (Events)",
       "type": "government",
       "industry": "government",
@@ -4079,6 +4079,225 @@
       "sources": [],
       "verified": true,
       "lastChecked": "2026-10-12"
+    },
+    {
+      "source": "auto-search",
+      "addedOn": "2026-10-19",
+      "lastChecked": "2026-10-19",
+      "excludes": [
+        "Donation requests from MSU clubs",
+        "Requests received less than 10 business days before the event"
+      ],
+      "questions": [
+        "MSU Sponsorship Request Form (PDF) — complete, save and email"
+      ],
+      "requiredDocs": [
+        "MSU Sponsorship Request Form",
+        "Sponsorship package detailing levels and commitments",
+        "Proof of meeting sponsorship requirements after the event (to get paid)"
+      ],
+      "notes": "Email the form to avpfinance@msu.mcmaster.ca AND clubs@msu.mcmaster.ca. Payment comes 5–10 business days after the event once proof of recognition is submitted. Past memos show HSA's Bhajan night and a HSA/Bollywood at Mac Garba each recommended $300.",
+      "email": "avpfinance@msu.mcmaster.ca",
+      "slug": "msu-sponsorships-and-donations",
+      "name": "MSU Sponsorships (AVP Finance – Sponsorships & Donations)",
+      "type": "university",
+      "industry": "university",
+      "region": "McMaster",
+      "priority": 1,
+      "amount": "Varies — based on your sponsorship package (recent cultural-club events received ~$200–$400)",
+      "deadline": "Rolling — submit at least 10 business days before the event; ~2–3 week review. Committee meets less often May–Aug.",
+      "deadlineDate": null,
+      "applyMethod": "email",
+      "applyUrl": "https://msumcmaster.ca/sponsorship-and-donations_2026/",
+      "website": "https://www.msumcmaster.ca/info/faqs",
+      "summary": "The MSU itself sponsors student events in exchange for logo/advertising recognition. MSU clubs can't request donations here, but they can submit sponsorship requests (with a sponsorship package) to the AVP Finance and Clubs Administrator.",
+      "angle": "MSB's showcase reaches hundreds of McMaster students — offer the MSU logo placement and on-stage recognition as a campus cultural event open to all.",
+      "eligibility": [
+        "Students and student/community groups",
+        "MSU clubs may request sponsorships (not donations — clubs get annual funding via the Clubs Department)",
+        "Request must arrive at least 10 business days before the event"
+      ],
+      "funds": [
+        "Student events in exchange for advertising/promotion (e.g. logo use at the event)"
+      ],
+      "sources": [
+        "https://www.msumcmaster.ca/info/faqs",
+        "https://msumcmaster.ca/app/uploads/2024/03/EB-23-27-Memo-SponDon-Recommendations-.pdf"
+      ],
+      "verified": true
+    },
+    {
+      "source": "auto-search",
+      "addedOn": "2026-10-19",
+      "lastChecked": "2026-10-19",
+      "excludes": [
+        "Equipment",
+        "Conference travel",
+        "Ongoing initiatives",
+        "Direct payments/reimbursements to individuals"
+      ],
+      "questions": [
+        "Project title",
+        "McMaster principal applicant (name, unit/department, contact)",
+        "Community co-applicant (name, organization, contact)",
+        "Additional collaborators",
+        "Description of proposed activity (300 words)",
+        "Project goals and anticipated outcomes (350 words)",
+        "Alignment with McMaster's Community Engagement Strategy (200 words)",
+        "Anticipated outputs and outcomes (200 words)",
+        "Budget",
+        "Anticipated timeline (complete by April 30, 2027)"
+      ],
+      "requiredDocs": [
+        "Completed proposal form",
+        "Partnership Agreement (Partnership Development stream)",
+        "Short final report after completion"
+      ],
+      "notes": "Page doesn't say whether a student club alone qualifies as the campus side — email community@mcmaster.ca to confirm and check funds remain for 2026-27. Funds flow via internal transfer or the community partner invoices the Office.",
+      "email": "community@mcmaster.ca",
+      "slug": "mcmaster-oce-catalyst-grants",
+      "name": "McMaster Office of Community Engagement – Catalyst Grants",
+      "type": "university",
+      "industry": "university",
+      "region": "McMaster / Hamilton",
+      "priority": 2,
+      "amount": "Up to $1,000 (Early-Stage) or up to $2,500 (Partnership Development)",
+      "deadline": "2026-27 cycle: first-consideration deadline was June 1, 2026; approvals continue on a rolling basis until funds run out. Work must be finished by April 30, 2027.",
+      "deadlineDate": null,
+      "applyMethod": "form",
+      "applyUrl": "https://forms.cloud.microsoft/r/k8m0Y3LHzB",
+      "website": "https://community.mcmaster.ca/our-programs-and-initiatives/catalyst-grants/",
+      "summary": "Small grants for new community–campus partnerships that include at least one Hamilton-area community partner. A free bhangra workshop series run with a Hamilton school, youth centre or cultural group could fit.",
+      "angle": "Partner with a Hamilton community group (e.g. a youth or newcomer organization) to deliver free bhangra workshops — a new community-campus partnership built around cultural exchange.",
+      "eligibility": [
+        "Must be a community–campus partnership with at least one Hamilton-area community partner",
+        "Campus side: a McMaster program, department or formal initiative including a faculty member, staff member or student",
+        "Community partners: not-for-profits, public sector, grassroots groups or individuals, Indigenous communities"
+      ],
+      "funds": [
+        "Event or workshop facilitation costs",
+        "Compensation for participants (gift cards, meals)",
+        "Giving back to community partners"
+      ],
+      "sources": [
+        "https://community.mcmaster.ca/our-programs-and-initiatives/catalyst-grants/"
+      ],
+      "verified": true
+    },
+    {
+      "source": "auto-search",
+      "addedOn": "2026-10-19",
+      "lastChecked": "2026-10-19",
+      "excludes": [
+        "Ongoing operations",
+        "Equipment not tied to the project",
+        "Alcohol",
+        "Souvenirs",
+        "Competition expenses/prizes",
+        "Activities outside Hamilton",
+        "Activities not open to the general public",
+        "Projects forecasting a deficit"
+      ],
+      "questions": [
+        "Brief summary (60 words)",
+        "Detailed description (~1,000 words): themes, activities, dates, location, marketing",
+        "Use of CEF funds (~500 words)",
+        "Scaling plan if funding is reduced (~500 words)",
+        "Community participation, volunteers and impact (~500 words)",
+        "Three measurable outcomes",
+        "Partnerships (~300 words)",
+        "Team members and expertise (~300 words)",
+        "City enrichment and diversity reach (~300 words)",
+        "Alignment with up to three community priorities (~200 words)",
+        "Balanced budget with in-kind contributions"
+      ],
+      "requiredDocs": [
+        "Board/executive list with roles",
+        "Staff or lead-volunteer list",
+        "Financial statements (unaudited OK)",
+        "Marketing materials (if any)",
+        "Declaration form"
+      ],
+      "notes": "Scored 40% organizational capacity, 40% programming merit, 20% community impact. A student club may struggle on capacity — consider partnering with an established Hamilton cultural org. Must credit the City in promo.",
+      "email": "",
+      "slug": "hamilton-cef-communities-culture-heritage-new-projects",
+      "name": "City of Hamilton – City Enrichment Fund (Communities, Culture & Heritage: New Projects)",
+      "type": "government",
+      "industry": "government",
+      "region": "Hamilton",
+      "priority": 3,
+      "amount": "Up to $15,000 (cannot be 100% of project budget)",
+      "deadline": "Annual intake; 2026 decisions were made in spring 2026. Watch for the 2027 intake (handbooks usually post in the fall).",
+      "deadlineDate": null,
+      "applyMethod": "portal",
+      "applyUrl": "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf",
+      "website": "https://www.hamilton.ca/",
+      "summary": "Municipal funding for new public cultural projects that celebrate Hamilton's community identity. Unlike the Arts stream, unincorporated groups with not-for-profit goals and a governance structure can apply — a free, public Vaisakhi/bhangra celebration in Hamilton could fit.",
+      "angle": "A new, free, city-wide Punjabi cultural celebration that brings Hamilton's South Asian community and the wider public together, run by a volunteer student group.",
+      "eligibility": [
+        "Incorporated not-for-profits, registered charities, or unincorporated groups with not-for-profit goals and a governance structure",
+        "Head office and program in Hamilton",
+        "Cultural organization whose mission celebrates/interprets Hamilton's community identity",
+        "Project new or held fewer than three times, not yet happened at time of applying",
+        "City-wide appeal and open to the public"
+      ],
+      "funds": [
+        "Performances, events and experiences that increase public participation in culture",
+        "Educational workshops for the general public",
+        "Artist/performer fees, volunteer costs, production, marketing, insurance, security, road closures"
+      ],
+      "sources": [
+        "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf"
+      ],
+      "verified": true
+    },
+    {
+      "source": "auto-search",
+      "addedOn": "2026-10-19",
+      "lastChecked": "2026-10-19",
+      "excludes": [
+        "Events not open to the general public",
+        "Individual tickets over $100",
+        "Individuals/families",
+        "Political, advocacy, fraternal, labour or veterans groups",
+        "Religious organizations (some exceptions)",
+        "Fundraising galas",
+        "Table purchases"
+      ],
+      "questions": [
+        "Alterna sponsorship application form (all fields) — pages 3–4 cover marketing/recognition opportunities for Alterna"
+      ],
+      "requiredDocs": [
+        "Completed sponsorship application form"
+      ],
+      "notes": "Email the completed form only — no phone, mail or branch requests. Follow up if no confirmation within 5 business days. Apply 3+ months ahead (e.g. by mid-January for an April Vaisakhi event).",
+      "email": "sponsorship@alterna.ca",
+      "slug": "alterna-savings-corporate-sponsorship",
+      "name": "Alterna Savings – Corporate Sponsorship Program",
+      "type": "corporate",
+      "industry": "credit union",
+      "region": "Ontario",
+      "priority": 3,
+      "amount": "No set limit; typically $100 – $5,000",
+      "deadline": "Rolling — apply at least 3 months before the event; committee meets monthly, ~45-day review.",
+      "deadlineDate": null,
+      "applyMethod": "email",
+      "applyUrl": "https://www.alterna.ca/AboutUs/Community/Sponsorships/",
+      "website": "https://www.alterna.ca/AboutUs/Community/Sponsorships/",
+      "summary": "Ontario credit union that sponsors community events and student-led initiatives (e.g. a 10-year Enactus partnership). Applications are by form, emailed to the sponsorship team.",
+      "angle": "An inclusive, open-to-the-public cultural event with health & wellbeing benefits (dance/fitness) and a young, diverse audience of new-to-banking students.",
+      "eligibility": [
+        "Events/organizations open to the general public",
+        "Ontario communities"
+      ],
+      "funds": [
+        "Community events and initiatives",
+        "Health and wellbeing-aligned programs"
+      ],
+      "sources": [
+        "https://www.alterna.ca/AboutUs/Community/Sponsorships/"
+      ],
+      "verified": true
     }
   ]
 }
