@@ -1,17 +1,18 @@
-export const metadata = { title: "Guide · MSB Funding Hub" };
+export const metadata = { title: "Guide · MSB Sponsorships" };
 
 const steps = [
-  ["Fill in the club profile", "Add your name, the club email and last year's numbers (members, attendance, followers). Every email uses them."],
-  ["Hit the deadlines first", "The dark box on the home page lists deadlines in the next 60 days. McMaster funds (USIF, SLEF) are the easiest money — apply every term."],
-  ["Send personalized emails", "Open a sponsor, pick Cash ask or In-kind ask, edit the [brackets], attach the sponsorship package and click Open in Outlook — it opens a ready-to-send draft in the msb@mcmaster.ca inbox (sign in to Outlook with the club account first)."],
-  ["Track status", "Set each opportunity's status (Contacted, Follow up, Won…). Follow up after 7–10 days with the Follow-up template."],
+  ["Pick who you are", "Use the \"Sending as\" menu at the top. If you aren't listed, add yourself on the Club & senders page with your role, the email you send from, and a short personal line."],
+  ["Keep the club details current", "Showcase date, attendance, member count and Instagram numbers live on the Club & senders page. Everyone shares them, and every email pulls them in."],
+  ["Start with deadlines", "The dark box on the home page lists deadlines in the next 60 days. McMaster funds like USIF and SLEF are the most reliable money, so apply every term."],
+  ["Send the email", "Open an opportunity, check the research, pick the type of email, read it over and click Open in Outlook. Once you've sent it, click \"Yes, mark as emailed\" so the team knows."],
+  ["Follow up", "Anything emailed more than 7 days ago without an update shows up under Follow-ups due on the Tracker page. The Follow-up email is written for you."],
   ["Get MSU sign-off", "Before accepting money, loop in the MSU Clubs Administrator. Execs can't sign sponsorship contracts themselves."],
 ];
 
 export default function Guide() {
   return (
     <div className="max-w-3xl py-10">
-      <h1 className="font-display text-3xl font-extrabold">How to use the Funding Hub</h1>
+      <h1 className="font-display text-3xl font-extrabold">How to use this site</h1>
       <ol className="mt-6 space-y-4">
         {steps.map(([t, d], i) => (
           <li key={t} className="flex gap-4 rounded-xl border border-line bg-card p-4">
@@ -26,26 +27,25 @@ export default function Guide() {
 
       <h2 className="mt-10 font-display text-2xl font-semibold">How new opportunities get added</h2>
       <p className="mt-2 text-sm leading-relaxed">
-        A scheduled research job runs every week. It searches the web for new grants, cultural-event sponsorships and
-        South Asian community sponsors in Ontario and Canada, checks deadlines on existing entries, and adds anything new
-        to <code className="rounded bg-line px-1">data/opportunities.json</code> in the GitHub repo. Vercel redeploys
-        automatically, and new entries show a <span className="chip bg-saffron text-white">New</span> badge (filter with
-        &quot;Auto-found&quot;).
+        A research job runs every Monday and Thursday morning. It searches for new grants, cultural event sponsors and
+        South Asian community sponsors in Ontario and across Canada, re-checks deadlines that are coming up, and researches a
+        batch of existing sponsors in more depth so their emails get more specific over time. New entries show a{" "}
+        <span className="chip bg-saffron text-white">New</span> badge.
       </p>
 
       <h2 className="mt-10 font-display text-2xl font-semibold">Adding or fixing an entry by hand</h2>
       <p className="mt-2 text-sm leading-relaxed">
-        Edit <code className="rounded bg-line px-1">data/opportunities.json</code> on GitHub (pencil icon), copy an
-        existing entry, change the fields and commit. The site updates in about a minute.
+        Edit <code className="rounded bg-line px-1">data/opportunities.json</code> in the GitHub repo, copy an existing
+        entry, change the fields and commit. The site updates in about a minute.
       </p>
 
-      <h2 className="mt-10 font-display text-2xl font-semibold">Outreach tips that work</h2>
+      <h2 className="mt-10 font-display text-2xl font-semibold">What gets a yes</h2>
       <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm">
-        <li>Lead with what the sponsor gets: audience, logo placement, reels, on-stage shoutouts.</li>
-        <li>Local businesses say yes to in-kind far more often than cash — ask for both.</li>
-        <li>Big companies (Microsoft, Deloitte, banks) fund through employees: find McMaster alumni there on LinkedIn.</li>
-        <li>Send Tuesday–Thursday mornings. Follow up once after a week.</li>
-        <li>Always send a thank-you and a post-event recap with photos — that&apos;s how sponsors renew.</li>
+        <li>Lead with what the sponsor gets: the audience, logo placement, performance videos and a shoutout on stage.</li>
+        <li>Local businesses say yes to in-kind far more often than cash, so use the In-kind ask for small shops and restaurants.</li>
+        <li>Big companies tend to fund through their employees. Look for McMaster alumni there on LinkedIn and ask them to pass it along.</li>
+        <li>Send Tuesday to Thursday mornings, and follow up once after a week.</li>
+        <li>Send every sponsor a thank-you and a recap with photos after the show. That is how sponsors come back the next year.</li>
       </ul>
     </div>
   );

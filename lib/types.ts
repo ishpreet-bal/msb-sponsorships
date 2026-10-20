@@ -1,5 +1,32 @@
 export type OppType = "university" | "government" | "foundation" | "corporate" | "business";
 
+/** Sponsor-specific research used to personalize outreach. All facts must come from a cited source. */
+export interface Research {
+  /** How the organisation reads in a sentence, e.g. "RBC" or "Prima Lighting". */
+  orgName?: string;
+  /** Name of the grant/program as it reads in a sentence, e.g. "the Multiculturalism and Anti-Racism Program". */
+  programName?: string;
+  /** One or two sentences on who they are and what they do (internal, shown on the page). */
+  about: string;
+  /** Sentence that finishes "I'm reaching out on behalf of our club because ...". Specific to this sponsor. */
+  hook: string;
+  /** Paragraph explaining why MSB is a fit for them specifically. Written in the club's "we" voice. */
+  connection: string;
+  /** What to ask this sponsor for, e.g. "a $500 to $1,000 cash sponsorship" or "an in-kind donation of lighting equipment for our showcase". */
+  ask: string;
+  /** Past sponsorships, community programs or giving history found online. */
+  givingHistory: string[];
+  /** Named person or team to address, if publicly listed (e.g. "Community Relations team"). */
+  contactName: string;
+  /** How best to reach the right person (form, email, LinkedIn, walk-in). */
+  contactRoute: string;
+  /** Rough odds and why, for internal prioritizing. */
+  fit: "high" | "medium" | "low";
+  fitReason: string;
+  sources: string[];
+  researchedOn: string;
+}
+
 export interface Opportunity {
   slug: string;
   name: string;
@@ -27,14 +54,12 @@ export interface Opportunity {
   verified: boolean;
   lastChecked: string;
   addedOn?: string;
+  research?: Research;
 }
 
+/** Shared club details, same for every sender. */
 export interface ClubProfile {
   clubName: string;
-  senderName: string;
-  senderRole: string;
-  senderEmail: string;
-  phone: string;
   eventName: string;
   eventDate: string;
   attendance: string;
@@ -44,14 +69,11 @@ export interface ClubProfile {
   askAmount: string;
   packageLink: string;
   aboutClub: string;
+  highlights: string;
 }
 
 export const DEFAULT_PROFILE: ClubProfile = {
   clubName: "McMaster School of Bhangra (MSB)",
-  senderName: "",
-  senderRole: "Sponsorship Coordinator",
-  senderEmail: "msb@mcmaster.ca",
-  phone: "",
   eventName: "our annual showcase",
   eventDate: "",
   attendance: "",
@@ -61,20 +83,54 @@ export const DEFAULT_PROFILE: ClubProfile = {
   askAmount: "",
   packageLink: "",
   aboutClub:
-    "MSB is a student-run cultural dance club at McMaster University that teaches, performs and celebrates bhangra, the traditional folk dance of Punjab. We welcome students of every background and represent McMaster at performances and competitions.",
+    "MSB is a student-run club that teaches and performs bhangra, the traditional folk dance of Punjab. We are open to students of every background, and our teams perform at campus events, community celebrations and competitions across Ontario.",
+  highlights: "",
 };
+
+export interface Sender {
+  id: string;
+  name: string;
+  role: string;
+  email: string;
+  phone: string;
+  /** Optional personal line added after the introduction, e.g. "I'm a third-year Health Sciences student and have danced with MSB for two years." */
+  intro: string;
+  send_via: "outlook" | "gmail" | "mail";
+}
 
 export type Status = "not-started" | "drafted" | "contacted" | "follow-up" | "applied" | "won" | "declined";
 
+export const STATUS_ORDER: Status[] = ["not-started", "drafted", "contacted", "follow-up", "applied", "won", "declined"];
+
 export const STATUS_LABEL: Record<Status, string> = {
-  "not-started": "Not started",
-  drafted: "Drafted",
-  contacted: "Contacted",
-  "follow-up": "Follow up",
+  "not-started": "Not contacted",
+  drafted: "Draft opened",
+  contacted: "Emailed",
+  "follow-up": "Needs follow-up",
   applied: "Applied",
-  won: "Won 🎉",
+  won: "Won",
   declined: "Declined",
 };
+
+export interface OutreachRow {
+  slug: string;
+  status: Status;
+  updated_by: string | null;
+  updated_at: string;
+}
+
+export interface LogRow {
+  id: number;
+  slug: string;
+  action: "sent" | "status" | "note";
+  status: Status | null;
+  actor: string | null;
+  sender_email: string | null;
+  to_email: string | null;
+  subject: string | null;
+  note: string | null;
+  created_at: string;
+}
 
 export const TYPE_LABEL: Record<OppType, string> = {
   university: "McMaster fund",

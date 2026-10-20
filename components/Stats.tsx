@@ -1,18 +1,18 @@
 "use client";
 import type { Opportunity } from "@/lib/types";
-import { useStatuses } from "@/lib/store";
+import { useTeam } from "@/lib/team";
 
 export default function Stats({ items }: { items: Opportunity[] }) {
-  const [statuses] = useStatuses();
-  const vals = Object.values(statuses);
+  const t = useTeam();
+  const st = items.map((o) => t.statusOf(o.slug));
   const cards = [
     { label: "Opportunities", value: items.length, tone: "text-ink" },
-    { label: "Email-ready", value: items.filter((o) => o.email).length, tone: "text-leaf" },
-    { label: "Contacted / applied", value: vals.filter((s) => ["contacted", "follow-up", "applied"].includes(s)).length, tone: "text-saffron-deep" },
-    { label: "Won", value: vals.filter((s) => s === "won").length, tone: "text-phulkari" },
+    { label: "Not contacted yet", value: st.filter((s) => s === "not-started" || s === "drafted").length, tone: "text-muted" },
+    { label: "Emailed or applied", value: st.filter((s) => ["contacted", "follow-up", "applied"].includes(s)).length, tone: "text-saffron-deep" },
+    { label: "Won", value: st.filter((s) => s === "won").length, tone: "text-leaf" },
   ];
   return (
-    <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
       {cards.map((c) => (
         <div key={c.label} className="rounded-xl border border-line bg-card p-4">
           <div className={`font-display text-3xl font-extrabold ${c.tone}`}>{c.value}</div>

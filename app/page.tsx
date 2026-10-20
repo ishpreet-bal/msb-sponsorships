@@ -1,5 +1,3 @@
-export const revalidate = 3600;
-
 import Explorer from "@/components/Explorer";
 import Stats from "@/components/Stats";
 import { allOpportunities, daysUntil } from "@/lib/data";
@@ -16,21 +14,17 @@ export default function Home() {
 
   return (
     <>
-      <section className="py-10 sm:py-14">
-        <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-phulkari">McMaster School of Bhangra</p>
-        <h1 className="max-w-3xl font-display text-4xl font-extrabold leading-[1.05] sm:text-5xl">
-          Every dollar that keeps the <span className="text-saffron">dhol</span> going — in one place.
-        </h1>
-        <p className="mt-4 max-w-2xl text-muted">
-          Grants, sponsors and application details for MSB, with ready-to-send personalized outreach emails.
-          New opportunities are found and added automatically every week.
+      <section className="py-8 sm:py-10">
+        <h1 className="font-display text-3xl font-extrabold sm:text-4xl">Sponsorships and funding</h1>
+        <p className="mt-2 max-w-2xl text-muted">
+          Find who to reach out to, send a personalized email, and keep track of where every sponsor and application stands.
         </p>
         <Stats items={items} />
       </section>
 
       {upcoming.length > 0 && (
-        <section className="mb-10 rounded-2xl bg-ink p-5 text-paper sm:p-6">
-          <h2 className="mb-3 font-display text-xl font-semibold">⏳ Deadlines in the next 60 days</h2>
+        <section className="mb-8 rounded-2xl bg-ink p-5 text-paper sm:p-6">
+          <h2 className="mb-3 font-display text-xl font-semibold">Deadlines in the next 60 days</h2>
           <ul className="divide-y divide-white/10">
             {upcoming.map((o) => {
               const d = daysUntil(o.deadlineDate)!;
