@@ -19,12 +19,9 @@ const re = new RegExp(`\\b(${BANNED.map((w) => w.replace(/[-\s]/g, "[-\\s]")).jo
 
 const club = {
   ...DEFAULT_PROFILE,
-  eventName: "MSB Annual Showcase 2027",
-  eventDate: "March 21, 2027",
-  attendance: "400",
-  members: "60",
-  instagram: "@mcmasterbhangra",
-  followers: "3,500",
+  attendance: "over 100",
+  members: "20",
+  followers: "almost 2,000",
 };
 const sender: Sender = {
   id: "x", name: "Test Sender", role: "VP Finance", email: "msb@mcmaster.ca", phone: "416-697-6581", send_via: "outlook",

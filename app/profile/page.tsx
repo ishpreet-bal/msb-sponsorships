@@ -10,7 +10,7 @@ const CLUB_FIELDS: { key: keyof ClubProfile; label: string; placeholder?: string
   { key: "members", label: "Active members", placeholder: "e.g. 60" },
   { key: "instagram", label: "Instagram handle", placeholder: "@mcmasterbhangra" },
   { key: "followers", label: "Instagram followers", placeholder: "e.g. 3,500" },
-  { key: "askAmount", label: "Default cash ask", placeholder: "e.g. $500 to $2,000" },
+  { key: "askAmount", label: "Same ask for everyone (leave blank to size the ask to each sponsor)", placeholder: "Blank = $50 to $100 for small shops, more for big companies" },
   { key: "packageLink", label: "Sponsorship package link (optional)", placeholder: "Google Drive or Canva link" },
   { key: "aboutClub", label: "About the club (goes in every email)", long: true },
   {

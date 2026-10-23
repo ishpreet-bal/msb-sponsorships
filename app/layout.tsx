@@ -38,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/">Opportunities</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/tracker">Tracker</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/profile">Club &amp; senders</Link>
+                <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/send">Send in bulk</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/guide">Guide</Link>
                 <span className="ml-2"><SenderSwitcher /></span>
               </div>

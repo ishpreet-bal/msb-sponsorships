@@ -101,7 +101,7 @@ function reach(c: ClubProfile) {
 
 const INDUSTRY_CONNECTION: Record<string, (org: string) => string> = {
   food: (org) =>
-    `Our showcase and practices bring together hundreds of students and their families, and food is a big part of how we celebrate. As such, ${org} would be a natural fit as a food partner, whether that is catering for our performers, a booth at the show, or a sponsorship tier with logo placement.`,
+    `Our showcase and practices bring students and their families together, and food is a big part of how we celebrate. As such, ${org} would be a natural fit as a food partner, whether that is catering for our performers, a booth at the show, or a sponsorship tier with logo placement.`,
   lighting: (org) =>
     `Bhangra is a stage art, and the look of our showcase depends heavily on good lighting. As such, ${org} would be a natural fit as our lighting partner, with recognition on stage and in the performance videos we share after the show.`,
   kitchen: (org) =>
@@ -113,13 +113,13 @@ const INDUSTRY_CONNECTION: Record<string, (org: string) => string> = {
   retail: (org) =>
     `Our members are university students who are active on social media and shop with brands that show up for their community. A partnership with MSB gives ${org} visibility at our events and in the performance and behind-the-scenes content we post throughout the year.`,
   beauty: (org) =>
-    `Every performance involves full hair, makeup and costume, and our members spend hours getting ready before they go on stage. As such, ${org} would be a natural fit as our beauty partner, with product features in our behind-the-scenes content and recognition at the show.`,
+    `Every performance involves full hair, makeup and costume, and our members put a lot of time into getting ready before they go on stage. As such, ${org} would be a natural fit as our beauty partner, with product features in our behind-the-scenes content and recognition at the show.`,
   cpg: (org) =>
-    `${org} has a strong presence with Canadian families and students, and our events bring both together in one place. A partnership with MSB gives you sampling opportunities, logo placement and social content in front of a large and engaged student audience.`,
+    `${org} has a strong presence with Canadian families and students, and our events bring both together in one place. A partnership with MSB gives you sampling opportunities, logo placement and social content in front of an engaged student audience.`,
   telecom: (org) =>
-    `Students are one of the most important groups for any telecom brand, and our events reach hundreds of McMaster students and their families. A partnership with MSB gives ${org} visibility with that audience at the show and across our social media.`,
+    `Students are one of the most important groups for any telecom brand, and our events bring McMaster students and their families together in one place. A partnership with MSB gives ${org} visibility with that audience at the show and across our social media.`,
   fitness: (org) =>
-    `Bhangra is one of the most high-energy forms of dance, and our members train for months before each performance. As such, ${org} would be a natural fit, whether that is co-hosting a bhangra workout, a sponsorship tier, or being featured in our training content.`,
+    `Bhangra is one of the most high-energy forms of dance, and our members put a lot of work into every performance. As such, ${org} would be a natural fit, whether that is co-hosting a bhangra workout, a sponsorship tier, or being featured in our training content.`,
   media: (org) =>
     `${org} has a long history of supporting arts and culture, and our club exists to keep Punjabi folk dance alive on a university stage. We think that story fits well with the work you already support.`,
   professional: (org) =>
@@ -141,16 +141,32 @@ function connection(o: Opportunity) {
   return f(org);
 }
 
-function cashAsk(o: Opportunity, c: ClubProfile) {
+const SMALL_LOCAL = new Set(["food", "local", "beauty", "retail", "fitness"]);
+const MID_LOCAL = new Set(["realty", "lighting", "kitchen", "professional", "other"]);
+
+/** Ask sized to the sponsor: small local shops start at $50, bigger companies higher. */
+export function suggestedAsk(o: Opportunity): string {
   if (has(o.research?.ask)) return o.research!.ask.trim();
-  if (has(c.askAmount)) return `a sponsorship of ${c.askAmount.trim()}`;
-  return "a cash or in-kind sponsorship";
+  if (o.type === "business" && SMALL_LOCAL.has(o.industry))
+    return o.industry === "food"
+      ? "a contribution of $50 to $100, or an in-kind donation such as food for our performers"
+      : "a contribution of $50 to $100, or an in-kind donation such as products or gift cards for our raffle";
+  if (o.type === "business" && MID_LOCAL.has(o.industry)) return "a sponsorship of $100 to $250";
+  if (o.type === "corporate") return "a sponsorship of $250 to $500";
+  return "a sponsorship of $100 to $250";
 }
+
+function cashAsk(o: Opportunity, c: ClubProfile) {
+  if (!has(o.research?.ask) && has(c.askAmount)) return `a sponsorship of ${c.askAmount.trim()}`;
+  return suggestedAsk(o);
+}
+
+const SMALL_AMOUNTS_LINE = "Every amount helps, and even $50 or $100 goes a long way for the events we put on.";
 
 function packageLine(c: ClubProfile) {
   return has(c.packageLink)
     ? `Our sponsorship package goes over each tier and what partners receive, and you can find it here: ${c.packageLink.trim()}`
-    : "I've attached our sponsorship package, which goes over each tier and what partners receive.";
+    : "Our sponsorship package goes over each tier and what partners receive, and I would be happy to send it over.";
 }
 
 function replyLine(s: Sender | null) {
@@ -231,7 +247,7 @@ export function buildEmail({ o, club: c, sender: s, variant, lastSent }: BuildAr
       `${intro(o, s)} I'm reaching out on behalf of our club because ${hook}`,
       `${c.aboutClub.trim()} Our biggest event of the year is ${eventWithDate(c)}, where our teams perform for students, families and members of the community. ${reach(c)}${has(c.highlights) ? ` ${c.highlights.trim()}` : ""}`,
       `With this in mind, we think ${org} would be a strong partner for us. ${connection(o)}`,
-      `For this year, we are hoping to secure ${ask}. In return, we would recognize ${org} on stage at ${eventLabel(c)}, include your logo on our posters and performance videos, and feature you on our Instagram. ${packageLine(c)}`,
+      `For this year, we are hoping to secure ${ask}.${/\$50 to \$100/.test(ask) ? "" : ` ${SMALL_AMOUNTS_LINE}`} In return, we would recognize ${org} on stage at ${eventLabel(c)}, include your logo on our posters and performance videos, and feature you on our Instagram. ${packageLine(c)}`,
       `If this sounds like something ${org} would be open to, I would be glad to set up a quick call or send over any other details you need. ${replyLine(s)} If someone else on your team handles sponsorships, I would appreciate it if you pointed me in their direction.`,
     ];
   }
