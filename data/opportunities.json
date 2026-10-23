@@ -481,7 +481,7 @@
       "slug": "microsoft-employee-champions-south-asian-erg",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "Microsoft (employee champions & South Asian ERG)",
       "type": "corporate",
       "industry": "professional",
@@ -508,13 +508,19 @@
         "One-page sponsorship summary an employee can forward internally"
       ],
       "notes": "Same approach works for Google, Amazon, Shopify, Deloitte, Accenture etc. Search LinkedIn: 'McMaster' + company + 'Punjabi' or 'South Asian'.",
-      "sources": []
+      "sources": [],
+      "contact": {
+        "name": "",
+        "route": "Microsoft has no public request inbox for student clubs. Find McMaster alumni or South Asian employees at Microsoft Canada on LinkedIn and ask them to champion MSB internally.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "food-basics-metro",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "Food Basics (Metro)",
       "type": "corporate",
       "industry": "cpg",
@@ -523,9 +529,9 @@
       "amount": "Varies — has title-sponsored Diwali events",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "Donations@metro.ca",
       "website": "https://www.foodbasics.ca/",
       "summary": "Food Basics has sponsored Diwali celebrations in Ottawa and Waterloo two years running, including title sponsorship in Waterloo. Proven appetite for South Asian cultural events in Ontario.",
       "angle": "Reference their Diwali sponsorships in Ottawa and Waterloo and pitch Hamilton/McMaster as the next community.",
@@ -540,8 +546,15 @@
       ],
       "notes": "Senior VP Hardeep Kharaud was quoted on these sponsorships — contact Food Basics corporate/community relations and reference this.",
       "sources": [
-        "https://canadiangrocer.com/food-basics-supports-diwali-celebrations-two-ontario-communities"
-      ]
+        "https://canadiangrocer.com/food-basics-supports-diwali-celebrations-two-ontario-communities",
+        "https://corpo.metro.ca/en/corporate-social-responsibility/donation-request-form.html"
+      ],
+      "contact": {
+        "name": "Metro community investment team",
+        "route": "Metro (Food Basics' parent) lists this inbox for sponsorship requests. Its donation form is closed right now and donations need registered charity status, so lead with the Diwali-style cultural event angle and ask what's possible for a student club.",
+        "confidence": "medium",
+        "source": "https://corpo.metro.ca/en/corporate-social-responsibility/donation-request-form.html"
+      }
     },
     {
       "slug": "firstontario-credit-union",
@@ -587,7 +600,7 @@
       "slug": "remitbee",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "Remitbee",
       "type": "corporate",
       "industry": "bank",
@@ -611,14 +624,21 @@
       ],
       "notes": "Similar targets: Wise, Western Union, ICICI Bank Canada, State Bank of India (Canada), Bank of Baroda (Canada).",
       "sources": [
-        "https://www.remitbee.com/partnerships"
-      ]
+        "https://www.remitbee.com/partnerships",
+        "https://www.remitbee.com/help/getting-started/how-to-contact-remitbees-customer-support"
+      ],
+      "contact": {
+        "name": "",
+        "route": "No public email; support is phone 1-647-689-2323 or live chat on remitbee.com. Reach their marketing team on LinkedIn.",
+        "confidence": "phone-only",
+        "source": "https://www.remitbee.com/help/getting-started/how-to-contact-remitbees-customer-support"
+      }
     },
     {
       "slug": "icici-bank-canada",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "ICICI Bank Canada",
       "type": "corporate",
       "industry": "bank",
@@ -641,7 +661,15 @@
         "Sponsorship package"
       ],
       "notes": "Ask for the community/marketing team at a GTA branch.",
-      "sources": []
+      "sources": [
+        "https://www.icicibank.ca/contact-us"
+      ],
+      "contact": {
+        "name": "",
+        "route": "No public email found (their contact pages block automated reading). Visit or call a GTA branch and ask for the branch manager.",
+        "confidence": "unknown",
+        "source": "https://www.icicibank.ca/contact-us"
+      }
     },
     {
       "slug": "ttc-charity-community-events-in-kind",
@@ -1314,9 +1342,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "loveofreading@indigo.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Our members are students aged 18–24 who are active on social media. Indigo gets authentic content (performance reels, costume features) and visibility at our events.",
@@ -1329,9 +1357,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.indigoloveofreading.org/faq/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Indigo Love of Reading Foundation",
+        "route": "Indigo's foundation inbox. The foundation funds school libraries, so ask them to point you to Indigo's community or store marketing team.",
+        "confidence": "medium",
+        "source": "https://www.indigoloveofreading.org/faq/"
+      }
     },
     {
       "slug": "wealthsimple",
@@ -1344,9 +1380,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@wealthsimplefoundation.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Wealthsimple works hard to reach newcomer and South Asian Canadians and university students. Sponsoring a cultural dance club at McMaster reaches both at once, with visible branding at our showcase and online.",
@@ -1359,9 +1395,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://wealthsimplefoundation.com/about/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Wealthsimple Foundation",
+        "route": "The Wealthsimple Foundation funds financial education for young people and student bursaries and scholarships, which fits the club's scholarships side.",
+        "confidence": "high",
+        "source": "https://wealthsimplefoundation.com/about/"
+      }
     },
     {
       "slug": "xtm-inc",
@@ -1442,9 +1486,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@assent.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Assent values community involvement and diverse talent. Sponsoring MSB connects you with driven McMaster students and a large South Asian community network.",
@@ -1457,9 +1501,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://assets.assent.com/asset/36f8ed0d-99b8-4eda-ab13-793619053b03/-Report-2025-GRI-Disclosures.pdf"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "General inbox at Assent's Ottawa head office. Assent has an employee Community and Earth resource group, so ask for it to be passed to them.",
+        "confidence": "medium",
+        "source": "https://assets.assent.com/asset/36f8ed0d-99b8-4eda-ab13-793619053b03/-Report-2025-GRI-Disclosures.pdf"
+      }
     },
     {
       "slug": "deloitte",
@@ -1472,9 +1524,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "spenner@deloitte.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Deloitte values community involvement and diverse talent. Sponsoring MSB connects you with driven McMaster students and a large South Asian community network.",
@@ -1487,9 +1539,17 @@
         "Short intro email"
       ],
       "notes": "Ask McMaster alumni at Deloitte to champion internally.",
-      "sources": [],
+      "sources": [
+        "https://www.deloitte.com/ca/en/about/governance/canada-impact-report-2024/society/our-communities.html"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Sheri Penner, Managing Partner, Purpose & Sustainability",
+        "route": "Listed as the 'Get in touch' contact on Deloitte Canada's community impact report. Ask who handles campus and community partnerships; McMaster alumni at Deloitte are another route.",
+        "confidence": "medium",
+        "source": "https://www.deloitte.com/ca/en/about/governance/canada-impact-report-2024/society/our-communities.html"
+      }
     },
     {
       "slug": "molson-coors",
@@ -1517,9 +1577,17 @@
         "Short intro email"
       ],
       "notes": "Alcohol brand — check MSU sponsorship rules before pursuing.",
-      "sources": [],
+      "sources": [
+        "https://www.molsoncoors.com/ca-contact-us"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Contact form only (try 'Promotion Inquiry'): https://www.molsoncoors.com/can-contact-form?subject=promotion_inquiry . Alcohol brand, so check MSU rules first.",
+        "confidence": "form-only",
+        "source": "https://www.molsoncoors.com/ca-contact-us"
+      }
     },
     {
       "slug": "general-mills",
@@ -1585,9 +1653,17 @@
         "Short intro email"
       ],
       "notes": "Listed as 'Tellus' in original list.",
-      "sources": [],
+      "sources": [
+        "https://www.telus.com/en/social-impact/giving-back/community-grants"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "TELUS funds youth programs through its Greater Toronto & Hamilton Community Board (registered charities, up to $20,000) via the TELUS Friendly Future Foundation application. No readable email on their pages.",
+        "confidence": "form-only",
+        "source": "https://www.telus.com/en/social-impact/giving-back/community-grants"
+      }
     },
     {
       "slug": "lumency-inc",
@@ -1638,9 +1714,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "mbegin@pathstone.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Niagara).",
       "angle": "Pathstone Mental Health Foundation supports community and culture in Ontario. Sponsoring MSB puts your brand in front of McMaster students and the wider South Asian community through our showcase and social media.",
@@ -1653,9 +1729,17 @@
         "Short intro email"
       ],
       "notes": "Foundation — likely a partnership (e.g. wellness event) rather than cash.",
-      "sources": [],
+      "sources": [
+        "https://pathstonementalhealth.ca/contact/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Michelle Begin, Manager of Marketing & Community Development",
+        "route": "Listed on Pathstone's contact page. Pathstone is a Niagara mental health charity, so pitch a wellness partnership (e.g. a bhangra session for their events) rather than cash. Partnerships manager Don Campbell (dcampbell@pathstone.ca) is the other option.",
+        "confidence": "high",
+        "source": "https://pathstonementalhealth.ca/contact/"
+      }
     },
     {
       "slug": "metrolinx",
@@ -1668,9 +1752,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "rick.radovski@metrolinx.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA/Hamilton).",
       "angle": "Metrolinx supports community and culture in Ontario. Sponsoring MSB puts your brand in front of McMaster students and the wider South Asian community through our showcase and social media.",
@@ -1683,9 +1767,17 @@
         "Short intro email"
       ],
       "notes": "GO Transit runs a 'Celebrate Vaisakhi' promotion each spring — pitch a Vaisakhi performance partnership.",
-      "sources": [],
+      "sources": [
+        "https://assets.metrolinx.com/image/upload/v1663240007/Documents/Metrolinx/Metrolinx-General-Partnership-and-Sponsorship-Opportunities-Final.pdf"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Rick Radovski, Director, Non-Fare Sales",
+        "route": "Listed in Metrolinx's partnership brochure for partnership meetings. Their program sells advertising and sponsorships, so pitch it as a Vaisakhi or showcase promotion partnership.",
+        "confidence": "medium",
+        "source": "https://assets.metrolinx.com/image/upload/v1663240007/Documents/Metrolinx/Metrolinx-General-Partnership-and-Sponsorship-Opportunities-Final.pdf"
+      }
     },
     {
       "slug": "venturepark",
@@ -1751,9 +1843,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.corusent.com/faq/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No sponsorship inbox. Corus supports local partners through its Global News and radio stations, so contact the Hamilton/Toronto station directly; head office (416) 479-7000.",
+        "confidence": "phone-only",
+        "source": "https://www.corusent.com/faq/"
+      }
     },
     {
       "slug": "sobeys",
@@ -2287,9 +2387,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.bestbuy.ca/en-ca/about/sponsor/bltad7375c14d907409"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Requests go through Best Buy Canada's sponsorship page: https://www.bestbuy.ca/en-ca/about/sponsor/bltad7375c14d907409",
+        "confidence": "form-only",
+        "source": "https://www.bestbuy.ca/en-ca/about/sponsor/bltad7375c14d907409"
+      }
     },
     {
       "slug": "p-g",
@@ -2317,9 +2425,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://pg-lex.my.salesforce-sites.com/CarehubStandalone/articles/en_US/FAQ/will-p-g-sponsor-our-event"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "P&G states it is not accepting new sponsorship applications. Skip for now.",
+        "confidence": "form-only",
+        "source": "https://pg-lex.my.salesforce-sites.com/CarehubStandalone/articles/en_US/FAQ/will-p-g-sponsor-our-event"
+      }
     },
     {
       "slug": "virgin-plus",
@@ -2349,7 +2465,13 @@
       "notes": "Original list had a personal-looking address for this contact; it is kept out of the public site. Ask the club lead for it.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Virgin Plus is part of Bell, which publishes no sponsorship inbox. Skip or ask a local store.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "sport-chek",
@@ -2377,9 +2499,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://corp.canadiantire.ca/community/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Sport Chek is a Canadian Tire Corporation brand; requests go through the same Canadian Tire community form: https://canadiantire.elevent.co/?lang=en . Store managers also do local in-kind donations.",
+        "confidence": "form-only",
+        "source": "https://corp.canadiantire.ca/community/"
+      }
     },
     {
       "slug": "aperol-canada",
@@ -2649,9 +2779,17 @@
         "Short intro email"
       ],
       "notes": "Appeared 2x — merged.",
-      "sources": [],
+      "sources": [
+        "https://www.pepsico.ca/contact"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "PepsiCo Canada states it does not accept unsolicited sponsorship or donation requests. Skip unless you have a personal connection there.",
+        "confidence": "form-only",
+        "source": "https://www.pepsico.ca/contact"
+      }
     },
     {
       "slug": "bell",
@@ -2679,9 +2817,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.bce.ca/contact-us"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "BCE lists no community or sponsorship inbox (only media, investor and customer contacts). Bell Let's Talk funding runs through letstalk.bell.ca.",
+        "confidence": "form-only",
+        "source": "https://www.bce.ca/contact-us"
+      }
     },
     {
       "slug": "labatt",
@@ -2711,7 +2857,13 @@
       "notes": "Alcohol brand — check MSU sponsorship rules before pursuing.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public sponsorship email or form found. Alcohol brand, so check MSU rules first.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "nestl",
@@ -3155,7 +3307,13 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No Canadian sponsorship contact found.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "damiani-jewellers",
@@ -3291,7 +3449,13 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "The league has no general request inbox; individual teams run donation programs (e.g. the Toronto Maple Leafs through MLSE, which is already on your list).",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "cibc",
@@ -3304,9 +3468,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "Mailbox.CommunityInvestment@cibc.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "CIBC works hard to reach newcomer and South Asian Canadians and university students. Sponsoring a cultural dance club at McMaster reaches both at once, with visible branding at our showcase and online.",
@@ -3319,9 +3483,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.cibc.com/en/about-cibc/corporate-responsibility/community-and-sponsorship/funding-guidelines.html"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "CIBC Community Investment team",
+        "route": "Email for questions. Formal requests go through CIBC's online application (reviewed four times a year); focus areas are inclusive communities, financial education and cancer.",
+        "confidence": "high",
+        "source": "https://www.cibc.com/en/about-cibc/corporate-responsibility/community-and-sponsorship/funding-guidelines.html"
+      }
     },
     {
       "slug": "spc",
@@ -3351,7 +3523,13 @@
       "notes": "Student discount card — good for in-kind or co-promo.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public email on spccard.ca. SPC partners with CIBC for student cards, so ask through CIBC's community team.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "ssense",
@@ -3379,9 +3557,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.ssense.com/en-ca/customer-service/contact-us"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Only a customer-care inbox and contact form are public. Low priority.",
+        "confidence": "form-only",
+        "source": "https://www.ssense.com/en-ca/customer-service/contact-us"
+      }
     },
     {
       "slug": "first-capital",
@@ -3409,9 +3595,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://fcr.ca/company/about-first-capital/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No community or marketing email published, and First Capital is being acquired by KingSett Capital and Choice Properties. Low priority for now.",
+        "confidence": "phone-only",
+        "source": "https://fcr.ca/company/about-first-capital/"
+      }
     },
     {
       "slug": "goodlife-fitness",
@@ -3439,9 +3633,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://jobs.goodlifefitness.com/giving-back"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public sponsorship email; general contact form at https://www.goodlifefitness.com/contact-us. Asking a local club manager (e.g. a Hamilton GoodLife) is the faster route.",
+        "confidence": "form-only",
+        "source": "https://jobs.goodlifefitness.com/giving-back"
+      }
     },
     {
       "slug": "volkswagen",
@@ -3469,9 +3671,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.vw.ca/en/about-volkswagen/contact.html"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No sponsorship inbox; see the Partners and Sponsorships page (https://www.vw.ca/en/about-volkswagen/sponsorships-partners.html). Local VW dealers decide their own community sponsorships, which is the more realistic ask.",
+        "confidence": "form-only",
+        "source": "https://www.vw.ca/en/about-volkswagen/contact.html"
+      }
     },
     {
       "slug": "saje",
@@ -3484,9 +3694,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "hello@saje.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Performances involve full hair, makeup and costume — Saje could be our official beauty partner, with product features in our behind-the-scenes content.",
@@ -3499,9 +3709,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.saje.ca/pages/contact-us"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Saje's only public inbox (customer inquiries). Ask them to pass it to whoever handles community partnerships, or ask a local store manager.",
+        "confidence": "medium",
+        "source": "https://www.saje.ca/pages/contact-us"
+      }
     },
     {
       "slug": "shoppers-beauty",
@@ -3559,9 +3777,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://chatime.ca/franchising/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public email; head office only takes franchise inquiries through a form. Ask a local Hamilton Chatime owner directly for an in-kind donation.",
+        "confidence": "form-only",
+        "source": "https://chatime.ca/franchising/"
+      }
     },
     {
       "slug": "revlon",
@@ -3591,7 +3817,13 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public donation or sponsorship contact found.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "ago",
@@ -3957,9 +4189,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "http://beyondmeat.hellosponsor.com/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Sponsorship requests go through Beyond Meat's submission portal: http://beyondmeat.hellosponsor.com/",
+        "confidence": "form-only",
+        "source": "http://beyondmeat.hellosponsor.com/"
+      }
     },
     {
       "slug": "canada-computers",
@@ -4139,7 +4379,13 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Couldn't find a business by this name. Ask whoever added it for a website or Instagram.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "made-by-mieuon",
@@ -4275,7 +4521,13 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Couldn't confirm which brand this is. Ask whoever added it for a website or Instagram.",
+        "confidence": "unknown",
+        "source": ""
+      }
     },
     {
       "slug": "skin-to",
@@ -4288,9 +4540,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@skin.to",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Toronto).",
       "angle": "Performances involve full hair, makeup and costume — SKIN.TO could be our official beauty partner, with product features in our behind-the-scenes content.",
@@ -4303,9 +4555,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://skin.to/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Online Korean and Japanese skincare shop; brand inbox.",
+        "confidence": "high",
+        "source": "https://skin.to/"
+      }
     },
     {
       "slug": "bambeau",
