@@ -122,6 +122,8 @@ export default function Explorer({ items }: { items: Opportunity[] }) {
                 <PriorityBadge p={o.priority} />
                 <DeadlineBadge o={o} />
                 {o.email && <span className="chip bg-leaf-soft text-leaf">✉ Email</span>}
+                {!o.email && o.contact?.confidence === "form-only" && <span className="chip bg-indigo-soft text-indigo">Web form only</span>}
+                {!o.email && o.contact?.confidence === "phone-only" && <span className="chip bg-line text-ink">Phone only</span>}
                 {(o.applyMethod === "form" || o.applyMethod === "portal") && <span className="chip bg-indigo-soft text-indigo">Application form</span>}
                 {o.research && <span className="chip bg-saffron-soft text-saffron-deep">Researched</span>}
                 {o.source === "auto-search" && <span className="chip bg-saffron text-white">New</span>}

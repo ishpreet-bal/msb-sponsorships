@@ -55,6 +55,13 @@ export interface Opportunity {
   lastChecked: string;
   addedOn?: string;
   research?: Research;
+  /** Who to reach and how, from the contact search. */
+  contact?: {
+    name: string;
+    route: string;
+    confidence: "high" | "medium" | "low" | "form-only" | "phone-only" | "unknown";
+    source: string;
+  };
 }
 
 /** Shared club details, same for every sender. */

@@ -69,7 +69,11 @@ export default function OpportunityPage({ params }: { params: { slug: string } }
             <dt className="label">How to reach them</dt>
             <dd className="space-y-2">
               {o.email && <div className="font-medium">✉ {o.email}</div>}
-              {r?.contactRoute && <div className="text-muted">{clean(r.contactRoute)}</div>}
+              {o.contact?.name && <div>Contact: {o.contact.name}</div>}
+              {(o.contact?.route || r?.contactRoute) && <div className="text-muted">{clean(o.contact?.route || r!.contactRoute)}</div>}
+              {o.contact && ["low", "unknown"].includes(o.contact.confidence) && (
+                <div className="chip bg-phulkari-soft text-phulkari">Double-check this contact before sending</div>
+              )}
               <div className="flex flex-wrap gap-2">
                 {o.applyUrl && (
                   <a href={o.applyUrl} target="_blank" rel="noreferrer" className="btn-primary !py-1.5">

@@ -20,7 +20,8 @@ export const VARIANT_LABEL: Record<Variant, string> = {
 /** Removes em/en dashes and tidies whitespace so nothing slips through from the data. */
 export function clean(s: string): string {
   return s
-    .replace(/(\$?\d[\d,]*)\s*[–—-]\s*(\$?\d)/g, "$1 to $2")
+    .replace(/(\$\d[\d,]*)\s*[–—-]\s*(\$?\d)/g, "$1 to $2")
+    .replace(/(\d)\s*[–—]\s*(\$?\d)/g, "$1 to $2")
     .replace(/\s*[—–]\s*/g, ", ")
     .replace(/\s+,/g, ",")
     .replace(/[ \t]+/g, " ")
@@ -56,7 +57,16 @@ function subjectEvent(c: ClubProfile) {
   return /^our /i.test(e) ? "Annual Showcase" : e;
 }
 
+function personName(raw?: string) {
+  if (!raw) return "";
+  const n = raw.split(",")[0].trim();
+  if (/team|department|office|committee|relations|council|foundation|affairs|inbox|centre|center/i.test(n)) return "";
+  return /^[A-Z][a-z'-]+(\s[A-Z][a-z'-]+)+$/.test(n) ? n : "";
+}
+
 function greeting(o: Opportunity) {
+  const person = personName(o.contact?.name) || personName(o.research?.contactName);
+  if (person) return `Hi ${person.split(/\s+/)[0]},`;
   const cn = o.research?.contactName?.trim();
   if (cn) {
     if (/team|department|office|committee|relations/i.test(cn)) return `Hi ${cn},`;
@@ -143,6 +153,12 @@ function packageLine(c: ClubProfile) {
     : "I've attached our sponsorship package, which goes over each tier and what partners receive.";
 }
 
+function replyLine(s: Sender | null) {
+  return has(s?.phone)
+    ? `Feel free to reply directly to this email, or call or text me at ${s!.phone.trim()} if that is easier.`
+    : "Feel free to reply directly to this email.";
+}
+
 function signature(s: Sender | null, c: ClubProfile, closing = "Thank you for your time and consideration,") {
   return [
     closing,
@@ -184,8 +200,10 @@ export function buildEmail({ o, club: c, sender: s, variant, lastSent }: BuildAr
       greeting(o),
       `${intro(o, s)} I'm reaching out because our club is planning to apply to ${programName(o)} for ${eventWithDate(c)}, and we wanted to confirm a few details before we submit.`,
       c.aboutClub.trim(),
-      `With that said, we are a ratified student club through the McMaster Students Union rather than an incorporated non-profit. As such, we wanted to check whether student clubs are eligible to apply, and whether there is anything you would recommend we include to make our application as strong as possible.`,
-      `We look forward to hearing from you.`,
+      o.type === "university"
+        ? `With that said, we wanted to check the timeline for this cycle, and whether there is anything you would recommend we include to make our application as strong as possible.`
+        : `With that said, we are a ratified student club through the McMaster Students Union rather than an incorporated non-profit. As such, we wanted to check whether student clubs are eligible to apply, and whether there is anything you would recommend we include to make our application as strong as possible.`,
+      `${replyLine(s)} We look forward to hearing from you.`,
     ];
   } else if (variant === "follow-up") {
     const when = lastSent
@@ -196,7 +214,7 @@ export function buildEmail({ o, club: c, sender: s, variant, lastSent }: BuildAr
       greeting(o),
       `I wanted to follow up on the email I sent${when} about partnering with the McMaster School of Bhangra for ${eventWithDate(c)}. I know inboxes get busy this time of year, so I wanted to bring it back to the top.`,
       `To give a quick summary, we reached out because ${hook} We are hoping to secure ${cashAsk(o, c)}, and we are flexible on the format, whether that is a cash sponsorship, an in-kind donation or a smaller contribution to start.`,
-      `If you have a few minutes this week or next, I would be glad to set up a short call. If someone else on your team handles sponsorships, I would appreciate it if you pointed me in their direction.`,
+      `If you have a few minutes this week or next, I would be glad to set up a short call. ${replyLine(s)} If someone else on your team handles sponsorships, I would appreciate it if you pointed me in their direction.`,
     ];
   } else {
     const inKind = variant === "in-kind";
@@ -214,7 +232,7 @@ export function buildEmail({ o, club: c, sender: s, variant, lastSent }: BuildAr
       `${c.aboutClub.trim()} Our biggest event of the year is ${eventWithDate(c)}, where our teams perform for students, families and members of the community. ${reach(c)}${has(c.highlights) ? ` ${c.highlights.trim()}` : ""}`,
       `With this in mind, we think ${org} would be a strong partner for us. ${connection(o)}`,
       `For this year, we are hoping to secure ${ask}. In return, we would recognize ${org} on stage at ${eventLabel(c)}, include your logo on our posters and performance videos, and feature you on our Instagram. ${packageLine(c)}`,
-      `If this sounds like something ${org} would be open to, I would be glad to set up a quick call or send over any other details you need. If someone else on your team handles sponsorships, I would appreciate it if you pointed me in their direction.`,
+      `If this sounds like something ${org} would be open to, I would be glad to set up a quick call or send over any other details you need. ${replyLine(s)} If someone else on your team handles sponsorships, I would appreciate it if you pointed me in their direction.`,
     ];
   }
 

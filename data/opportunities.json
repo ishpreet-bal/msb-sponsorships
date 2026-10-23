@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "opportunities": [
     {
       "slug": "mcmaster-undergraduate-student-initiatives-fund-usif",
@@ -65,7 +65,7 @@
       "slug": "mcmaster-student-life-enhancement-fund-slef",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-23",
       "name": "McMaster Student Life Enhancement Fund (SLEF)",
       "type": "university",
       "industry": "university",
@@ -76,7 +76,7 @@
       "deadlineDate": "2026-11-06",
       "applyMethod": "form",
       "applyUrl": "https://enhance.mcmaster.ca/slef/",
-      "email": "",
+      "email": "studentgroups@mcmaster.ca",
       "website": "https://studentaffairs.mcmaster.ca/students/initiatives/",
       "summary": "Students pitch ideas that enhance student life; shortlisted ideas are voted on by the student body. A strong cultural/inclusion pitch plus a campaign to get votes could fund a larger project (e.g. a free campus-wide bhangra festival or workshop series).",
       "angle": "Pitch a new, inclusive, campus-wide cultural project that builds partnerships between students, the MSU and community groups.",
@@ -101,13 +101,19 @@
       "notes": "Low effort to submit — the team helps develop the idea. Requires campaigning for votes in January.",
       "sources": [
         "https://studentaffairs.mcmaster.ca/students/initiatives/"
-      ]
+      ],
+      "contact": {
+        "name": "Student Affairs",
+        "route": "SLEF is run by Student Affairs, the same office whose studentgroups@ inbox handles USIF. Ideas themselves are submitted at enhance.mcmaster.ca.",
+        "confidence": "medium",
+        "source": "https://studentaffairs.mcmaster.ca/students/initiatives/"
+      }
     },
     {
       "slug": "mcmaster-alumni-association-student-sponsorship",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "McMaster Alumni Association Student Sponsorship",
       "type": "university",
       "industry": "university",
@@ -118,7 +124,7 @@
       "deadlineDate": null,
       "applyMethod": "form",
       "applyUrl": "https://mcmaster.ca/ua/alumni/students_sponsorship.html",
-      "email": "",
+      "email": "pophamje@mcmaster.ca",
       "website": "https://mcmaster.ca/ua/alumni/students_sponsorship.html",
       "summary": "Small sponsorships for McMaster student groups whose events connect students and alumni. Invite alumni to the showcase to strengthen the application.",
       "angle": "Highlight alumni involvement — invite MSB alumni to perform or attend the showcase.",
@@ -151,14 +157,21 @@
       ],
       "notes": "Must display the MAA logo on all promo. The page found is dated — confirm the current form with the Alumni Office.",
       "sources": [
-        "https://mcmaster.ca/ua/alumni/students_sponsorship.html"
-      ]
+        "https://mcmaster.ca/ua/alumni/students_sponsorship.html",
+        "https://mcmaster.ca/ua/alumni/programs_community.html"
+      ],
+      "contact": {
+        "name": "John Popham, Alumni Officer",
+        "route": "Listed on an older McMaster alumni page. Confirm he is still the right contact.",
+        "confidence": "low",
+        "source": "https://mcmaster.ca/ua/alumni/programs_community.html"
+      }
     },
     {
       "slug": "msu-clubs-funding-bridge-financing",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "MSU Clubs Funding & Bridge Financing",
       "type": "university",
       "industry": "university",
@@ -169,7 +182,7 @@
       "deadlineDate": null,
       "applyMethod": "form",
       "applyUrl": "https://msumcmaster.ca/governance/bylaws-policies/services-op-clubs-financial-procedures-revised-25n-2/",
-      "email": "",
+      "email": "clubs@msu.mcmaster.ca",
       "website": "https://msumcmaster.ca/",
       "summary": "Base funding every MSU club can access. Bridge financing helps cover showcase costs up front while sponsor money comes in.",
       "angle": "",
@@ -193,8 +206,15 @@
       ],
       "notes": "IMPORTANT: club execs cannot sign sponsorship contracts — the MSU Clubs Administrator must approve and sign. Sponsorships must not conflict with existing MSU commercial agreements.",
       "sources": [
-        "https://msumcmaster.ca/governance/bylaws-policies/services-op-clubs-financial-procedures-revised-25n-2/"
-      ]
+        "https://msumcmaster.ca/governance/bylaws-policies/services-op-clubs-financial-procedures-revised-25n-2/",
+        "https://msumcmaster.ca/app/uploads/2025/01/Who-is-Who-in-the-MSU-2024-2025.pdf"
+      ],
+      "contact": {
+        "name": "Rene Hares, MSU Clubs Administrator",
+        "route": "Email the Clubs Administrator. Funding claims go to the Clubs Accounting Clerk, Jenna Fierro (clubsaccounting@msu.mcmaster.ca).",
+        "confidence": "high",
+        "source": "https://msumcmaster.ca/app/uploads/2025/01/Who-is-Who-in-the-MSU-2024-2025.pdf"
+      }
     },
     {
       "slug": "canadian-heritage-multiculturalism-anti-racism-program-events",
@@ -252,7 +272,7 @@
       "slug": "rbc-sponsorships-rbc-sponsor-com",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "RBC Sponsorships (rbc.sponsor.com)",
       "type": "corporate",
       "industry": "bank",
@@ -296,14 +316,21 @@
       ],
       "notes": "Separate RBC Foundation donations require registered charity status — the club should use the sponsorship route.",
       "sources": [
-        "https://www.rbc.com/our-impact/apply-for-funding/index.html"
-      ]
+        "https://www.rbc.com/our-impact/apply-for-funding/index.html",
+        "https://rbc.com/newsroom/news/contact"
+      ],
+      "contact": {
+        "name": "",
+        "route": "Sponsorship proposals go through https://rbc.sponsor.com/ . RBC lists no sponsorship inbox; the Greater Toronto communications contact is Shauna Cook (shauna.cook@rbc.com), published for media, so use her only to ask who handles student sponsorships.",
+        "confidence": "form-only",
+        "source": "https://rbc.com/newsroom/news/contact"
+      }
     },
     {
       "slug": "td-corporate-donations-community-sponsorship",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "TD Corporate Donations & Community Sponsorship",
       "type": "corporate",
       "industry": "bank",
@@ -314,7 +341,7 @@
       "deadlineDate": null,
       "applyMethod": "form",
       "applyUrl": "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf",
-      "email": "",
+      "email": "tdsocialimpact@td.com",
       "website": "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf",
       "summary": "TD mainly funds registered charities, but considers non-profits/community groups in exceptional cases that align with its focus areas (including youth from diverse communities and access to arts & culture).",
       "angle": "Lead with TD's focus on opportunities for youth from diverse communities and access to arts & culture.",
@@ -353,14 +380,21 @@
       ],
       "notes": "Online form takes ~20–30 min; the link is TD's official guide, which points to the current form.",
       "sources": [
-        "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf"
-      ]
+        "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf",
+        "https://www.td.com/ca/en/about-td/ready-commitment/funding"
+      ],
+      "contact": {
+        "name": "TD Social Impact team",
+        "route": "Email for questions. Applications go through the TD portal; next review deadline January 8, 2027.",
+        "confidence": "high",
+        "source": "https://www.td.com/ca/en/about-td/ready-commitment/funding"
+      }
     },
     {
       "slug": "hamilton-arts-week-event-support-grant",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "Hamilton Arts Week – Event Support Grant",
       "type": "foundation",
       "industry": "arts",
@@ -371,7 +405,7 @@
       "deadlineDate": null,
       "applyMethod": "form",
       "applyUrl": "https://theartycrowd.ca/arts-opportunities/hamilton-arts-week-2026-apply-for-event-support-grant/",
-      "email": "",
+      "email": "info@hamiltonartscouncil.ca",
       "website": "https://theartycrowd.ca/",
       "summary": "Hamilton Arts Council grant for events held during Hamilton Arts Week. Open to community groups — a public bhangra performance or workshop downtown would fit.",
       "angle": "Offer a free public bhangra workshop/performance during Hamilton Arts Week.",
@@ -389,14 +423,21 @@
       "requiredDocs": [],
       "notes": "Seasonal — the recurring search will flag the 2027 call.",
       "sources": [
-        "https://theartycrowd.ca/arts-opportunities/hamilton-arts-week-2026-apply-for-event-support-grant/"
-      ]
+        "https://theartycrowd.ca/arts-opportunities/hamilton-arts-week-2026-apply-for-event-support-grant/",
+        "https://www.hamiltonartscouncil.ca/artsfestival"
+      ],
+      "contact": {
+        "name": "Hamilton Arts Council",
+        "route": "General Hamilton Arts Council inbox. Ask when the 2027 Arts Week Event Support Grant opens.",
+        "confidence": "high",
+        "source": "https://www.hamiltonartscouncil.ca/artsfestival"
+      }
     },
     {
       "slug": "city-of-hamilton-city-enrichment-fund-arts-festivals",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "City of Hamilton – City Enrichment Fund (Arts / Festivals)",
       "type": "government",
       "industry": "government",
@@ -407,7 +448,7 @@
       "deadlineDate": null,
       "applyMethod": "portal",
       "applyUrl": "https://www.hamilton.ca/sites/default/files/2024-09/cityenrichmentfund-Arts-Festivals-2025-Handbook.pdf",
-      "email": "",
+      "email": "Grant.Coordinator@hamilton.ca",
       "website": "https://www.hamilton.ca/",
       "summary": "Municipal arts & festival funding. Usually requires incorporation or a multi-year track record — a longer-term option, or partner with an existing Hamilton festival.",
       "angle": "",
@@ -426,8 +467,15 @@
       "requiredDocs": [],
       "notes": "Lower fit for a student club today; consider co-applying with an established Hamilton arts org.",
       "sources": [
-        "https://www.hamilton.ca/sites/default/files/2024-09/cityenrichmentfund-Arts-Festivals-2025-Handbook.pdf"
-      ]
+        "https://www.hamilton.ca/sites/default/files/2024-09/cityenrichmentfund-Arts-Festivals-2025-Handbook.pdf",
+        "https://www.hamilton.ca/sites/default/files/2025-10/cityenrichmentfund-2026-General-Guidelines.pdf"
+      ],
+      "contact": {
+        "name": "City Enrichment Fund Grant Coordinator",
+        "route": "Role inbox for the City Enrichment Fund.",
+        "confidence": "high",
+        "source": "https://www.hamilton.ca/sites/default/files/2025-10/cityenrichmentfund-2026-General-Guidelines.pdf"
+      }
     },
     {
       "slug": "microsoft-employee-champions-south-asian-erg",
@@ -499,7 +547,7 @@
       "slug": "firstontario-credit-union",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "FirstOntario Credit Union",
       "type": "corporate",
       "industry": "bank",
@@ -525,8 +573,15 @@
       ],
       "notes": "Check the community impact page for the current request form.",
       "sources": [
-        "https://www.firstontario.com/about-us/community-impact/events"
-      ]
+        "https://www.firstontario.com/about-us/community-impact/events",
+        "https://www.firstontario.com/about-us/community-impact/community-sponsorships"
+      ],
+      "contact": {
+        "name": "",
+        "route": "No public sponsorship email. Apply through the online sponsorship form at least 30 days ahead; replies within 14 business days: https://dosomegood.ca/forms/business/firstontario-credit-union-351214/firstontario-sponsorship-application",
+        "confidence": "form-only",
+        "source": "https://www.firstontario.com/about-us/community-impact/community-sponsorships"
+      }
     },
     {
       "slug": "remitbee",
@@ -592,7 +647,7 @@
       "slug": "ttc-charity-community-events-in-kind",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-12",
+      "lastChecked": "2026-10-23",
       "name": "TTC Charity & Community Events (in-kind)",
       "type": "government",
       "industry": "government",
@@ -628,7 +683,13 @@
       "notes": "Exposure, not cash.",
       "sources": [
         "https://www.ttc.ca/doing-business-with-the-ttc/Charity-and-Community-Groups"
-      ]
+      ],
+      "contact": {
+        "name": "",
+        "route": "Request form only, 6+ weeks ahead (TTC lists no email for this program).",
+        "confidence": "form-only",
+        "source": "https://www.ttc.ca/doing-business-with-the-ttc/Charity-and-Community-Groups"
+      }
     },
     {
       "slug": "the-smoke-shop",
@@ -656,9 +717,17 @@
         "Short intro email"
       ],
       "notes": "Original list had info@mustacheburger.com beside this — that email belongs to Mustache Burger. Contact needs verifying.",
-      "sources": [],
+      "sources": [
+        "https://thesmokeshopbbq.com/locations/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Couldn't confirm a GTA business by this name. The only 'The Smoke Shop' found is a BBQ chain in Massachusetts. Ask whoever added it which business they meant.",
+        "confidence": "unknown",
+        "source": "https://thesmokeshopbbq.com/locations/"
+      }
     },
     {
       "slug": "the-ultimate-foodtruck",
@@ -701,9 +770,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "maestromacncheese@gmail.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Our showcases and practices draw hundreds of hungry students — Maestro Mac 'n' Cheese could cater, run a booth, or be our official food partner, with logo placement and social shoutouts to a large McMaster audience.",
@@ -716,9 +785,17 @@
         "Short intro email"
       ],
       "notes": "Original list had info@curbsidedogs.com beside this (Curbside Dogs). Contact needs verifying.",
-      "sources": [],
+      "sources": [
+        "https://www.maestromacncheese.com/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Jennifer Watson",
+        "route": "Food truck's booking inbox. Their site says to ask for Jennifer Watson.",
+        "confidence": "high",
+        "source": "https://www.maestromacncheese.com/"
+      }
     },
     {
       "slug": "mustache-burger",
@@ -836,9 +913,17 @@
         "Short intro email"
       ],
       "notes": "Original list notes an online sponsorship form. Local Canadian Tire store owners (Hamilton/Westdale) often sponsor directly — walk in or email the dealer.",
-      "sources": [],
+      "sources": [
+        "https://corp.canadiantire.ca/community/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Online form only: https://canadiantire.elevent.co/?lang=en . Local store owners (e.g. Hamilton stores) decide their own sponsorships, so visiting or calling a store is the best email-free route.",
+        "confidence": "form-only",
+        "source": "https://corp.canadiantire.ca/community/"
+      }
     },
     {
       "slug": "unilever",
@@ -866,9 +951,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.unilever.ca/contact"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Unilever asks for sponsorship requests through its Contact Us form, not email: https://www.unilever.ca/contact",
+        "confidence": "form-only",
+        "source": "https://www.unilever.ca/contact"
+      }
     },
     {
       "slug": "salerno-realty-inc",
@@ -881,9 +974,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@salernorealty.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Our members and their families are a tight-knit South Asian community across the GTA and Hamilton — exactly the audience a realtor wants to build trust with. Salerno Realty Inc. could sponsor our showcase or a competition trip.",
@@ -896,9 +989,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.salernorealestate.ca/contact-us/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Mark Salerno, Broker",
+        "route": "Office inbox, 28 Roytec Rd Unit 1, Woodbridge.",
+        "confidence": "high",
+        "source": "https://www.salernorealestate.ca/contact-us/"
+      }
     },
     {
       "slug": "royal-lepage-premium-one-realty",
@@ -911,9 +1012,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@royallepagepremiumone.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Our members and their families are a tight-knit South Asian community across the GTA and Hamilton — exactly the audience a realtor wants to build trust with. Royal LePage Premium One Realty could sponsor our showcase or a competition trip.",
@@ -926,9 +1027,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.royallepage.ca/en/office/ontario/vaughan/royal-lepage-premium-one-realty/5460/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Office inbox, 3-595 Cityview Blvd, Vaughan.",
+        "confidence": "high",
+        "source": "https://www.royallepage.ca/en/office/ontario/vaughan/royal-lepage-premium-one-realty/5460/"
+      }
     },
     {
       "slug": "prima-lighting",
@@ -1106,9 +1215,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://custom-kitchen-cabinets.com/ontario/atlas-kitchens-limited/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No email published. Phone (416) 748-1987, 292 Eddystone Ave, North York.",
+        "confidence": "phone-only",
+        "source": "https://custom-kitchen-cabinets.com/ontario/atlas-kitchens-limited/"
+      }
     },
     {
       "slug": "romeo-pitaro-lawyers",
@@ -1121,9 +1238,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@romeopitaro.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Romeo Pitaro Lawyers values community involvement and diverse talent. Sponsoring MSB connects you with driven McMaster students and a large South Asian community network.",
@@ -1136,26 +1253,34 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.romeopitaro.com/contact-us.html"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Firm inbox, 9050 Yonge St, Richmond Hill.",
+        "confidence": "high",
+        "source": "https://www.romeopitaro.com/contact-us.html"
+      }
     },
     {
       "slug": "holmes-elite",
       "name": "Holmes Elite",
       "type": "business",
-      "industry": "other",
+      "industry": "fitness",
       "region": "GTA",
       "source": "club-list",
       "priority": 3,
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "seonholmes@gmail.com",
       "website": "",
-      "summary": "Potential sponsor from the club's outreach list (GTA).",
+      "summary": "Holmes Elite Health & Fitness, a personal training and group fitness gym in Concord (Vaughan) run by Seon Holmes.",
       "angle": "Holmes Elite supports community and culture in Ontario. Sponsoring MSB puts your brand in front of McMaster students and the wider South Asian community through our showcase and social media.",
       "eligibility": [],
       "funds": [],
@@ -1166,9 +1291,17 @@
         "Short intro email"
       ],
       "notes": "Listed as 'Holmeselite' in original list.",
-      "sources": [],
+      "sources": [
+        "https://seonholmes.com/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Seon Holmes, CEO of Holmes Elite Health & Fitness",
+        "route": "Business contact listed on seonholmes.com. Gym at 8575 Keele St, Concord.",
+        "confidence": "high",
+        "source": "https://seonholmes.com/"
+      }
     },
     {
       "slug": "indigo",
@@ -1256,9 +1389,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://thecse.com/en/listings/technology/xtm-inc"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No public email. Toronto office phone 416-260-1641, 67 Mowat Ave Suite 445.",
+        "confidence": "phone-only",
+        "source": "https://thecse.com/en/listings/technology/xtm-inc"
+      }
     },
     {
       "slug": "bmo",
@@ -1406,9 +1547,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://cd1.generalmills.ca/about-us/faq-main-gmi"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "General Mills reviews requests only through its web system and states it does not review requests by email.",
+        "confidence": "form-only",
+        "source": "https://cd1.generalmills.ca/about-us/faq-main-gmi"
+      }
     },
     {
       "slug": "telus",
@@ -1451,9 +1600,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "hello@lumency.co",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Lumency Inc values community involvement and diverse talent. Sponsoring MSB connects you with driven McMaster students and a large South Asian community network.",
@@ -1466,9 +1615,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://lumency.co/the-procurement-opportunity-in-sponsorship/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Lumency is a sponsorship consulting firm (Toronto, New York, Chicago). General inbox info@lumency.co also listed.",
+        "confidence": "high",
+        "source": "https://lumency.co/the-procurement-opportunity-in-sponsorship/"
+      }
     },
     {
       "slug": "pathstone-mental-health-foundation",
@@ -1541,9 +1698,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@venturepark.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Venturepark values community involvement and diverse talent. Sponsoring MSB connects you with driven McMaster students and a large South Asian community network.",
@@ -1556,9 +1713,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://venturepark.ca/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Venturepark is a non-profit food and wellness founder accelerator; general inbox. Better as a connector to their founder companies than as a cash sponsor.",
+        "confidence": "high",
+        "source": "https://venturepark.ca/"
+      }
     },
     {
       "slug": "corus-entertainment",
@@ -1601,9 +1766,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "partnerships@sobeys.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Sobeys sponsors community and cultural celebrations across Canada. A partnership with a McMaster cultural club offers sampling, logo placement and social content to a large student audience.",
@@ -1616,9 +1781,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.sobeys.com/community-action-fund"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Sobeys partnerships team",
+        "route": "Sobeys routes event sponsorship requests to this inbox. Donations need registered charity status.",
+        "confidence": "high",
+        "source": "https://www.sobeys.com/community-action-fund"
+      }
     },
     {
       "slug": "scotiabank",
@@ -1631,9 +1804,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "community@scotiabank.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Scotiabank works hard to reach newcomer and South Asian Canadians and university students. Sponsoring a cultural dance club at McMaster reaches both at once, with visible branding at our showcase and online.",
@@ -1646,9 +1819,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://scotiabank.com/content/dam/scotiabank/canada/Final_Public_Facing_Donations_Policy_EN.pdf"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Scotiabank Community Investment team",
+        "route": "Email for questions; formal requests go through scotiabank.com/community. Eligibility requires registered charity or non-profit status, so ask whether a student club qualifies.",
+        "confidence": "high",
+        "source": "https://scotiabank.com/content/dam/scotiabank/canada/Final_Public_Facing_Donations_Policy_EN.pdf"
+      }
     },
     {
       "slug": "unika-swim",
@@ -1736,9 +1917,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.greekmarketcorner.ca/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No email published. Phone 289-234-5500 ext 1, 60 King Rd, Richmond Hill.",
+        "confidence": "phone-only",
+        "source": "https://www.greekmarketcorner.ca/"
+      }
     },
     {
       "slug": "sarpa-restaurant",
@@ -1781,9 +1970,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@concordfoodcentre.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Our showcases and practices draw hundreds of hungry students — Oak Ridges Food Market could cater, run a booth, or be our official food partner, with logo placement and social shoutouts to a large McMaster audience.",
@@ -1796,9 +1985,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.concordfoodcentre.com/contact-us-store-info/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Oak Ridges Food Market is part of Greco's Fresh Markets / Concord Food Centre; this is their shared inbox.",
+        "confidence": "high",
+        "source": "https://www.concordfoodcentre.com/contact-us-store-info/"
+      }
     },
     {
       "slug": "pur-and-simple",
@@ -1826,9 +2023,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://pursimple.com/contact-us/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Franchise head office has no public email; contact form at https://pursimple.com/contact-us/ or Ontario office 1-855-344-0360. Individual franchise owners decide local sponsorships, so a nearby location is the better ask.",
+        "confidence": "form-only",
+        "source": "https://pursimple.com/contact-us/"
+      }
     },
     {
       "slug": "lounge-with-me",
@@ -1886,9 +2091,17 @@
         "Short intro email"
       ],
       "notes": "Original list had both 'Made Good' and 'Riverside Natural Foods (Madegood owner)' — merged.",
-      "sources": [],
+      "sources": [
+        "https://www.madegoodfoods.com/pages/giving-back"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Request form only: https://madegoodfoods.zendesk.com/hc/en-us/requests/new",
+        "confidence": "form-only",
+        "source": "https://www.madegoodfoods.com/pages/giving-back"
+      }
     },
     {
       "slug": "lady-s-touch",
@@ -1931,9 +2144,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@yogabodies.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Bhangra is one of the most energetic forms of dance — a natural fit for Yoga Bodies. We can co-host a bhangra workout, feature your brand in reels, and promote you to our members.",
@@ -1946,9 +2159,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://yogabodies.ca/contact/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Studio inbox, 3580 Rutherford Rd, Vaughan.",
+        "confidence": "high",
+        "source": "https://yogabodies.ca/contact/"
+      }
     },
     {
       "slug": "tyler-mclay-realty-group",
@@ -2246,9 +2467,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://thatpretzeldough.com/contact-us/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No email published; contact form at https://thatpretzeldough.com/contact-us/ or call 289-763-9559 (2316 Major MacKenzie Dr W, Maple).",
+        "confidence": "form-only",
+        "source": "https://thatpretzeldough.com/contact-us/"
+      }
     },
     {
       "slug": "sanremo-bakery",
@@ -2261,9 +2490,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "orders@sanremobakery.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Our showcases and practices draw hundreds of hungry students — SanRemo Bakery could cater, run a booth, or be our official food partner, with logo placement and social shoutouts to a large McMaster audience.",
@@ -2276,9 +2505,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://sanremobakery.com/contact/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Only email on their contact page (374 Royal York Rd, Etobicoke). Calling 416-255-2808 also works.",
+        "confidence": "medium",
+        "source": "https://sanremobakery.com/contact/"
+      }
     },
     {
       "slug": "carbon-steel-profiles-limited",
@@ -2291,9 +2528,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "sales@carbon.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Ontario).",
       "angle": "Carbon Steel Profiles Limited supports community and culture in Ontario. Sponsoring MSB puts your brand in front of McMaster students and the wider South Asian community through our showcase and social media.",
@@ -2306,9 +2543,17 @@
         "Short intro email"
       ],
       "notes": "Listed as 'Carbon Seel' in original list.",
-      "sources": [],
+      "sources": [
+        "https://www.carbon.ca/contact/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Only public inbox (sales). Ask them to forward to whoever handles community sponsorships. Head office in Brampton.",
+        "confidence": "medium",
+        "source": "https://www.carbon.ca/contact/"
+      }
     },
     {
       "slug": "sephora",
@@ -2351,9 +2596,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "mlsefoundation@mlse.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Toronto).",
       "angle": "MLSE supports arts and culture. Our club preserves and showcases Punjabi folk dance on a university stage — a story with strong content and community appeal.",
@@ -2366,9 +2611,17 @@
         "Short intro email"
       ],
       "notes": "MLSE Foundation focuses on youth sport; brand teams may do cultural-night partnerships (e.g. Raptors/Leafs South Asian heritage nights).",
-      "sources": [],
+      "sources": [
+        "https://events.mlsefoundation.org/Static/Faq"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "MLSE Foundation",
+        "route": "Listed MLSE Foundation inbox. Phone (416) 815-2427.",
+        "confidence": "medium",
+        "source": "https://events.mlsefoundation.org/Static/Faq"
+      }
     },
     {
       "slug": "pepsico",
@@ -2471,9 +2724,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "donations@ca.nestle.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Nestlé sponsors community and cultural celebrations across Canada. A partnership with a McMaster cultural club offers sampling, logo placement and social content to a large student audience.",
@@ -2486,9 +2739,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.madewithnestle.ca/help/sponsorship-donations-request-canada.html"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Nestlé Canada donations team",
+        "route": "Nestlé asks for requests by email. Focus areas: healthy food access, community well-being. Give 8+ weeks for product requests.",
+        "confidence": "high",
+        "source": "https://www.madewithnestle.ca/help/sponsorship-donations-request-canada.html"
+      }
     },
     {
       "slug": "kraft-heinz",
@@ -2516,9 +2777,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.kraftheinz.com/en-CA/groceriesforgood"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Contact form only: https://contactus.kraftheinz.com/en-ca",
+        "confidence": "form-only",
+        "source": "https://www.kraftheinz.com/en-CA/groceriesforgood"
+      }
     },
     {
       "slug": "green-apple-dentist",
@@ -2531,9 +2800,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "greenappledentistry@gmail.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (GTA).",
       "angle": "Green Apple Dentist is part of the community we serve. A sponsorship (cash or in-kind) gets your brand in front of McMaster students through our showcase, practices and social media.",
@@ -2546,9 +2815,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://greenappledentistry.ca/contact-us/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Clinic inbox for Green Apple Dentistry, 110 Nashville Rd, Kleinburg (Vaughan). Confirm this is the dentist on your list.",
+        "confidence": "medium",
+        "source": "https://greenappledentistry.ca/contact-us/"
+      }
     },
     {
       "slug": "kernels-popcorn",
@@ -2921,9 +3198,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@interacademy-toronto.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Toronto).",
       "angle": "Inter Academy Toronto is part of the community we serve. A sponsorship (cash or in-kind) gets your brand in front of McMaster students through our showcase, practices and social media.",
@@ -2936,9 +3213,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://interacademy-toronto.com/contact"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Academy's general inbox.",
+        "confidence": "high",
+        "source": "https://interacademy-toronto.com/contact"
+      }
     },
     {
       "slug": "interac-corp",
@@ -2951,9 +3236,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "community@interac.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Interac Corp works hard to reach newcomer and South Asian Canadians and university students. Sponsoring a cultural dance club at McMaster reaches both at once, with visible branding at our showcase and online.",
@@ -2966,9 +3251,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://www.interac.ca/contact-us/"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "Interac community team",
+        "route": "Listed for sponsorship and community investment requests.",
+        "confidence": "high",
+        "source": "https://www.interac.ca/contact-us/"
+      }
     },
     {
       "slug": "nhl",
@@ -3626,9 +3919,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://supportontariomade.ca/manufacturer/toronto/tiffinday-8740925-canada-inc"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "tiffinday.com now redirects to a different restaurant (Udupi Palaces), so Tiffinday may have closed. Skip unless someone confirms it is still running.",
+        "confidence": "unknown",
+        "source": "https://supportontariomade.ca/manufacturer/toronto/tiffinday-8740925-canada-inc"
+      }
     },
     {
       "slug": "beyond-meat",
@@ -3896,9 +4197,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://supportontariomade.ca/manufacturer/richmond-hill/made-by-roka"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "No email published. Richmond Hill candle brand, phone 647-991-1995, or DM @madebyroka on Instagram.",
+        "confidence": "phone-only",
+        "source": "https://supportontariomade.ca/manufacturer/richmond-hill/made-by-roka"
+      }
     },
     {
       "slug": "so-supple-organics",
@@ -3911,9 +4220,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@sosuppleorganics.com",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Performances involve full hair, makeup and costume — So Supple Organics could be our official beauty partner, with product features in our behind-the-scenes content.",
@@ -3926,9 +4235,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://sosuppleorganics.com/pages/contact-us"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Brand inbox; store at 620 King St W, Toronto.",
+        "confidence": "high",
+        "source": "https://sosuppleorganics.com/pages/contact-us"
+      }
     },
     {
       "slug": "organiks",
@@ -4001,9 +4318,9 @@
       "amount": "Ask: cash, in-kind or both",
       "deadline": "Rolling",
       "deadlineDate": null,
-      "applyMethod": "find-contact",
+      "applyMethod": "email",
       "applyUrl": "",
-      "email": "",
+      "email": "info@bambeau.ca",
       "website": "",
       "summary": "Potential sponsor from the club's outreach list (Canada).",
       "angle": "Our members are students aged 18–24 who are active on social media. bambeau gets authentic content (performance reels, costume features) and visibility at our events.",
@@ -4016,9 +4333,17 @@
         "Short intro email"
       ],
       "notes": "",
-      "sources": [],
+      "sources": [
+        "https://bambeau.ca/pages/faq"
+      ],
       "verified": false,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-23",
+      "contact": {
+        "name": "",
+        "route": "Toronto Korean skincare boutique; brand inbox.",
+        "confidence": "high",
+        "source": "https://bambeau.ca/pages/faq"
+      }
     },
     {
       "slug": "nuts-for-cheese",
@@ -4187,7 +4512,7 @@
     {
       "source": "auto-search",
       "addedOn": "2026-10-19",
-      "lastChecked": "2026-10-19",
+      "lastChecked": "2026-10-23",
       "excludes": [
         "Ongoing operations",
         "Equipment not tied to the project",
@@ -4219,7 +4544,7 @@
         "Declaration form"
       ],
       "notes": "Scored 40% organizational capacity, 40% programming merit, 20% community impact. A student club may struggle on capacity — consider partnering with an established Hamilton cultural org. Must credit the City in promo.",
-      "email": "",
+      "email": "Grant.Coordinator@hamilton.ca",
       "slug": "hamilton-cef-communities-culture-heritage-new-projects",
       "name": "City of Hamilton – City Enrichment Fund (Communities, Culture & Heritage: New Projects)",
       "type": "government",
@@ -4247,9 +4572,16 @@
         "Artist/performer fees, volunteer costs, production, marketing, insurance, security, road closures"
       ],
       "sources": [
-        "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf"
+        "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf",
+        "https://www.hamilton.ca/sites/default/files/2025-10/cityenrichmentfund-2026-General-Guidelines.pdf"
       ],
-      "verified": true
+      "verified": true,
+      "contact": {
+        "name": "City Enrichment Fund Grant Coordinator",
+        "route": "Role inbox for the City Enrichment Fund.",
+        "confidence": "high",
+        "source": "https://www.hamilton.ca/sites/default/files/2025-10/cityenrichmentfund-2026-General-Guidelines.pdf"
+      }
     },
     {
       "source": "auto-search",

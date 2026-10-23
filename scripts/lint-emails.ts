@@ -27,7 +27,7 @@ const club = {
   followers: "3,500",
 };
 const sender: Sender = {
-  id: "x", name: "Test Sender", role: "VP Finance", email: "msb@mcmaster.ca", phone: "", send_via: "outlook",
+  id: "x", name: "Test Sender", role: "VP Finance", email: "msb@mcmaster.ca", phone: "416-697-6581", send_via: "outlook",
   intro: "I'm a third-year student and have danced with MSB for two years.",
 };
 
