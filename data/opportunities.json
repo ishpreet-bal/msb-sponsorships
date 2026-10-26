@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-26",
   "opportunities": [
     {
       "slug": "mcmaster-undergraduate-student-initiatives-fund-usif",
@@ -388,6 +388,27 @@
         "route": "Email for questions. Applications go through the TD portal; next review deadline January 8, 2027.",
         "confidence": "high",
         "source": "https://www.td.com/ca/en/about-td/ready-commitment/funding"
+      },
+      "research": {
+        "orgName": "TD",
+        "programName": "the TD Ready Commitment",
+        "about": "TD Bank Group is one of Canada's largest banks. Its community giving runs through the TD Ready Commitment, which funds Canadian charities, not-for-profits and municipalities.",
+        "hook": "The TD Ready Commitment supports Canadian organizations that build stronger communities, and we hope to learn whether TD has a local route for supporting a student cultural group like ours.",
+        "connection": "We are a student-run club at McMaster University that teaches bhangra to students of every background and performs at campus events and community celebrations across Ontario. We understand the TD Ready Commitment centres on jobs, housing affordability and small business support, so we would welcome guidance on any local TD sponsorship option that suits a cultural arts group in Hamilton.",
+        "ask": "a $250 to $500 local sponsorship toward our annual showcase, or a referral to the TD team that handles student community events",
+        "givingHistory": [
+          "TD Ready Commitment funds Canadian registered charities, not-for-profits and municipalities in three focus areas: jobs and workforce development, housing affordability, and entrepreneurship and small business support",
+          "Quarterly funding rounds with deadlines of January 8, April 9, July 9 and October 8, 2027",
+          "Donations are typically capped at $500,000 per year for up to three years"
+        ],
+        "contactName": "TD Social Impact team",
+        "contactRoute": "Email tdsocialimpact@td.com. TD does not offer pre-application eligibility consultations, so questions go by email. Next review deadline is January 8, 2027.",
+        "fit": "low",
+        "fitReason": "TD Ready excludes general events, recreational groups and schools, and its three focus areas do not include arts or culture.",
+        "sources": [
+          "https://www.td.com/ca/en/about-td/ready-commitment/funding"
+        ],
+        "researchedOn": "2026-10-26"
       }
     },
     {
@@ -481,7 +502,7 @@
       "slug": "microsoft-employee-champions-south-asian-erg",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "name": "Microsoft (employee champions & South Asian ERG)",
       "type": "corporate",
       "industry": "professional",
@@ -510,10 +531,10 @@
       "notes": "Same approach works for Google, Amazon, Shopify, Deloitte, Accenture etc. Search LinkedIn: 'McMaster' + company + 'Punjabi' or 'South Asian'.",
       "sources": [],
       "contact": {
-        "name": "",
-        "route": "Microsoft has no public request inbox for student clubs. Find McMaster alumni or South Asian employees at Microsoft Canada on LinkedIn and ask them to champion MSB internally.",
-        "confidence": "unknown",
-        "source": ""
+        "name": "Microsoft Canada Communications",
+        "route": "Microsoft Canada has no public sponsorship or donation intake. The only published Canadian contacts are press contacts on the Source Canada media contacts page, so a warm intro through a Microsoft employee or the South Asian employee group is a better route.",
+        "confidence": "low",
+        "source": "https://news.microsoft.com/en-ca/source-canada-media-contacts/"
       }
     },
     {
@@ -554,6 +575,29 @@
         "route": "Metro (Food Basics' parent) lists this inbox for sponsorship requests. Its donation form is closed right now and donations need registered charity status, so lead with the Diwali-style cultural event angle and ask what's possible for a student club.",
         "confidence": "medium",
         "source": "https://corpo.metro.ca/en/corporate-social-responsibility/donation-request-form.html"
+      },
+      "research": {
+        "orgName": "Food Basics",
+        "about": "Food Basics is an Ontario discount grocery chain owned by Metro Inc. In 2025 it supported Diwali celebrations in Ottawa and Waterloo Region for the second year in a row.",
+        "hook": "Food Basics stepped in as title sponsor of Waterloo Region's 2025 Diwali celebration when funding shortfalls put the event at risk, and that support for South Asian community celebrations is close to the heart of what we do.",
+        "connection": "We teach and perform bhangra, a Punjabi folk dance, and our club is open to McMaster students of every background. Food Basics has said that community celebrations play an important role in fostering connection and belonging, and our performances and annual showcase bring that same spirit to students and families in Hamilton. A partnership with us would carry the support Food Basics has shown for Diwali in Ottawa and Waterloo Region to another Ontario community.",
+        "ask": "a $250 to $500 sponsorship or a Food Basics gift card toward snacks and refreshments for our annual showcase",
+        "givingHistory": [
+          "Title sponsor of Waterloo Region's Diwali celebration at the Ken Seiling Museum in Kitchener, October 19, 2025, after funding limits threatened the event",
+          "Sponsored a custom drone show in place of fireworks at the Capital's Diwali Mela in Ottawa, October 12, 2025",
+          "2025 was the second year Food Basics supported both Diwali events",
+          "Metro's corporate donations program favours food assistance and health organizations and accepts only CRA registered charities"
+        ],
+        "contactName": "",
+        "contactRoute": "Email Donations@metro.ca and pitch this as a community event sponsorship, not a donation, because Metro's donation form is closed and only accepts registered charities. A Hamilton-area Food Basics store manager is a good second route for a gift card.",
+        "fit": "medium",
+        "fitReason": "Clear record of backing Diwali community events in Ontario, but Metro donations require registered charity status and the form is closed.",
+        "sources": [
+          "https://canadiangrocer.com/food-basics-supports-diwali-celebrations-two-ontario-communities",
+          "https://lbbonline.com/news/Food-Basics-Keeps-Diwali-Shining-Bright",
+          "https://corpo.metro.ca/en/corporate-social-responsibility/donation-request-form.html"
+        ],
+        "researchedOn": "2026-10-26"
       }
     },
     {
@@ -638,7 +682,7 @@
       "slug": "icici-bank-canada",
       "source": "research",
       "verified": true,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "name": "ICICI Bank Canada",
       "type": "corporate",
       "industry": "bank",
@@ -665,10 +709,10 @@
         "https://www.icicibank.ca/contact-us"
       ],
       "contact": {
-        "name": "",
-        "route": "No public email found (their contact pages block automated reading). Visit or call a GTA branch and ask for the branch manager.",
-        "confidence": "unknown",
-        "source": "https://www.icicibank.ca/contact-us"
+        "name": "ICICI Bank Canada Customer Contact Centre",
+        "route": "Call 1-888-424-2422 and ask for the community engagement or marketing team. The only published emails are for mortgage servicing and broker deposits.",
+        "confidence": "phone-only",
+        "source": "https://www.icicibank.ca/abouticicibank/contactus"
       }
     },
     {
@@ -749,12 +793,12 @@
         "https://thesmokeshopbbq.com/locations/"
       ],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
         "name": "",
-        "route": "Couldn't confirm a GTA business by this name. The only 'The Smoke Shop' found is a BBQ chain in Massachusetts. Ask whoever added it which business they meant.",
+        "route": "No Canadian business called The Smoke Shop was found. The only match is a Boston-area BBQ chain, so check which local business the club list meant.",
         "confidence": "unknown",
-        "source": "https://thesmokeshopbbq.com/locations/"
+        "source": ""
       }
     },
     {
@@ -1473,7 +1517,32 @@
       "notes": "Appeared 5x in original list — merged.",
       "sources": [],
       "verified": true,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-12",
+      "research": {
+        "orgName": "BMO",
+        "about": "BMO is a Canadian bank whose sponsorship program funds festivals, cultural events and sports programs in communities across Canada and the United States.",
+        "hook": "BMO sponsors festivals and cultural events across Canada, from the Stratford Festival to the Calgary Stampede, and our club brings Punjabi folk dance to stages at McMaster and across Ontario.",
+        "connection": "We are a student-run club that teaches bhangra to McMaster students of every background and performs at campus events, community celebrations and competitions. BMO selects sponsorships for community impact and social benefit, and our annual showcase gives students and families a live look at Punjabi culture. A sponsorship would put BMO in front of a young and diverse audience in Hamilton.",
+        "ask": "a $500 to $1,000 sponsorship toward our annual showcase, with recognition for BMO at the event and on our social media",
+        "givingHistory": [
+          "Stratford Festival sponsor since its opening day",
+          "Calgary Stampede, BMO's longest running sponsorship",
+          "Presenting sponsor of Walk So Kids Can Talk for Kids Help Phone",
+          "Local Soccer Club Program supporting more than 60 clubs and about 10,000 kids across Canada each year",
+          "Pride and Remembrance Run in the Greater Toronto Area",
+          "OSM in the Park with the Orchestre Symphonique de Montreal"
+        ],
+        "contactName": "",
+        "contactRoute": "Email a sponsorship proposal to GTD.SponsorshipDonations@bmo.com. BMO's corporate sponsorships page also lists corporate.sponsorships@bmo.com and asks applicants to review its What We Support guidelines first.",
+        "fit": "medium",
+        "fitReason": "BMO funds cultural events and festivals in Canada, but most listed sponsorships are large and it excludes funding for individual students.",
+        "sources": [
+          "https://www.bmo.com/en-ca/main/about-bmo/our-impact/communities/corporate-sponsorships/",
+          "https://www.bmo.com/en-ca/main/about-bmo/our-impact/communities/community-sponsorships/",
+          "https://www.bmo.com/ci/files/sponsorships_what_we_support_en.pdf"
+        ],
+        "researchedOn": "2026-10-26"
+      }
     },
     {
       "slug": "assent",
@@ -2465,12 +2534,12 @@
       "notes": "Original list had a personal-looking address for this contact; it is kept out of the public site. Ask the club lead for it.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
-        "name": "",
-        "route": "Virgin Plus is part of Bell, which publishes no sponsorship inbox. Skip or ask a local store.",
+        "name": "Virgin Plus Partnerships",
+        "route": "Partnership requests point to the Want to be a partner page at benefits.virginplus.ca, but its contact buttons do not work. Mail is the other option, to Virgin Plus at 15 Asquith Avenue, 6th Floor, Toronto ON M4W 1J7.",
         "confidence": "unknown",
-        "source": ""
+        "source": "https://www.virginplus.ca/en/why-choose-us/plus-with-purpose.html"
       }
     },
     {
@@ -2857,12 +2926,12 @@
       "notes": "Alcohol brand — check MSU sponsorship rules before pursuing.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
-        "name": "",
-        "route": "No public sponsorship email or form found. Alcohol brand, so check MSU rules first.",
-        "confidence": "unknown",
-        "source": ""
+        "name": "Labatt Breweries of Canada",
+        "route": "No sponsorship email is listed. Requests go through the general Labatt contact form at contactus.anheuser-busch.com. Alcohol brand, so check MSU rules first.",
+        "confidence": "form-only",
+        "source": "https://www.labatt.com/ca_en/our-commitment"
       }
     },
     {
@@ -3127,7 +3196,27 @@
       "notes": "",
       "sources": [],
       "verified": true,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-12",
+      "research": {
+        "orgName": "Rashmi's Bakery",
+        "about": "Rashmi's Bakery is a custom cake bakery in Brampton and Mississauga that makes egg-free cakes and desserts and delivers across the GTA. Founder Rashmi Chugh started it after baking an egg-free cake for her vegetarian son.",
+        "hook": "Rashmi's Bakery grew from an egg-free cake Rashmi Chugh baked so her son would not be left out at birthday parties, and our club is built on that same idea of making sure everyone has a place at the celebration.",
+        "connection": "We teach bhangra to McMaster students of every background and perform at campus events, community celebrations and competitions across Ontario. Our annual showcase is a night of celebration for students and families, and a dessert table from Rashmi's Bakery would be a natural fit for an evening that shares Punjabi culture. In return we would recognize the bakery at the event and on our social media.",
+        "ask": "a donated cake or dessert order for our annual showcase, or a $100 to $250 sponsorship, with recognition for Rashmi's Bakery at the event and on our social media",
+        "givingHistory": [
+          "No public donation or sponsorship program found",
+          "FAQ says the bakery collaborates with influencers and occasionally partners with local businesses such as coffee roasters, beverage makers and specialty food producers"
+        ],
+        "contactName": "",
+        "contactRoute": "Email info@rashmisbakery.com and copy marketing@rashmisbakery.com, the address their FAQ gives for collaboration requests. Instagram DMs are another listed route.",
+        "fit": "high",
+        "fitReason": "Inclusive founding story and celebration focus suit a small in-kind dessert ask, though no formal donation program is listed.",
+        "sources": [
+          "https://www.rashmisbakery.com/pages/about-us",
+          "https://help.rashmisbakery.com/en/category/collaborations-franchising-1ta53bu/"
+        ],
+        "researchedOn": "2026-10-26"
+      }
     },
     {
       "slug": "tiff",
@@ -3247,7 +3336,30 @@
       "notes": "Charity Pot excludes university groups and focuses on animal protection, human rights and environment — low fit. A local store product donation is more realistic.",
       "sources": [],
       "verified": true,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-12",
+      "research": {
+        "orgName": "Lush",
+        "about": "Lush is a handmade cosmetics company. Its Charity Pot program gave about $70 million in grants from North American sales to more than 3,800 organizations before Lush ended it in North America in 2024.",
+        "hook": "Lush has a long record of funding small grassroots groups through Charity Pot, and we hope to learn whether Lush Canada still supports local community groups in other ways.",
+        "connection": "We are a student-run club at McMaster University that teaches bhangra to students of every background and performs at community celebrations across Ontario. Our work centres on inclusion and cultural connection rather than environmental or animal protection campaigns, so we understand it sits outside the focus of Charity Pot. We would welcome a pointer to any local store or community giving option at Lush.",
+        "ask": "an in-kind donation of Lush products for a raffle at our annual showcase, or a referral to any current local giving program",
+        "givingHistory": [
+          "Charity Pot gave about $70 million in grants from North American sales to more than 3,800 organizations in 87 countries",
+          "Lush ended Charity Pot in North America in 2024",
+          "Charity Pot funded environmental, animal protection and human rights groups",
+          "Lush Giving now offers limited-edition products that support grassroots groups working on human rights, animal protection and environmental justice"
+        ],
+        "contactName": "",
+        "contactRoute": "charitypot@lush.com is the listed inbox, but the program is closed in North America. A request to a nearby Lush store for a raffle product is more realistic.",
+        "fit": "low",
+        "fitReason": "Charity Pot ended in North America in 2024, and it excluded event sponsorship, universities and causes outside environment, animals and human rights.",
+        "sources": [
+          "https://www.lush.com/us/en_us/c/charity-pot-collection",
+          "https://weare.lush.com/?p=10990",
+          "https://www.lush.com/ca/en_ca/a/how-lush-gives-back"
+        ],
+        "researchedOn": "2026-10-26"
+      }
     },
     {
       "slug": "starbucks-yorkdale",
@@ -3307,12 +3419,12 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
-        "name": "",
-        "route": "No Canadian sponsorship contact found.",
+        "name": "HP Canada",
+        "route": "HP Canada says it does not respond to requests from individuals or non-profit organizations. The only route is the general Contact HP page, so this is unlikely to succeed.",
         "confidence": "unknown",
-        "source": ""
+        "source": "https://www.hp.com/ca-en/hp-information/sustainable-impact/community.html"
       }
     },
     {
@@ -3449,12 +3561,12 @@
       "notes": "",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
-        "name": "",
-        "route": "The league has no general request inbox; individual teams run donation programs (e.g. the Toronto Maple Leafs through MLSE, which is already on your list).",
-        "confidence": "unknown",
-        "source": ""
+        "name": "NHL league contact form",
+        "route": "The NHL sends charitable requests to individual team community departments. League questions go through the form linked on the NHL Contact Us page.",
+        "confidence": "form-only",
+        "source": "https://www.nhl.com/info/contact-us"
       }
     },
     {
@@ -3523,12 +3635,12 @@
       "notes": "Student discount card — good for in-kind or co-promo.",
       "sources": [],
       "verified": false,
-      "lastChecked": "2026-10-23",
+      "lastChecked": "2026-10-26",
       "contact": {
-        "name": "",
-        "route": "No public email on spccard.ca. SPC partners with CIBC for student cards, so ask through CIBC's community team.",
-        "confidence": "unknown",
-        "source": ""
+        "name": "SPC Partnerships",
+        "route": "Partnership requests go through the web form at business.spccard.ca/contact. No email is published.",
+        "confidence": "form-only",
+        "source": "https://business.spccard.ca/contact/"
       }
     },
     {
@@ -4349,7 +4461,29 @@
       "notes": "",
       "sources": [],
       "verified": true,
-      "lastChecked": "2026-10-12"
+      "lastChecked": "2026-10-12",
+      "research": {
+        "orgName": "Kotn",
+        "about": "Kotn is a Toronto clothing brand founded in 2015 that makes its clothing from Egyptian cotton and is a certified B Corporation. It has funded 23 rural schools in Egypt through its ABCs Project.",
+        "hook": "Kotn built its business around a shared future with the cotton farming communities it works with in Egypt, funding 23 rural schools there, and our club shares that belief that culture and community belong at the centre of what we do.",
+        "connection": "We are a student-run club at McMaster University that teaches bhangra, a Punjabi folk dance, to students of every background. Like Kotn, we care about heritage and community, and our performances at campus events and celebrations across Ontario bring people together around a shared tradition. A partnership would introduce Kotn to a young audience in Hamilton that values where things come from.",
+        "ask": "a small product donation for a showcase raffle or a discount code for our members, or a $250 sponsorship toward our annual showcase",
+        "givingHistory": [
+          "ABCs Project has funded 23 rural schools in Egypt",
+          "Works with more than 5,000 cotton farms through multi-year contracts and harvest-failure subsidies",
+          "2019 Canadian Arts and Fashion Awards Sustainability Award",
+          "Certified B Corporation"
+        ],
+        "contactName": "",
+        "contactRoute": "Email partnerships@kotn.com with a short proposal focused on an in-kind or brand partnership, since no public community sponsorship program was found.",
+        "fit": "low",
+        "fitReason": "No public Canadian community sponsorship program found, and its giving focuses on cotton farming communities in Egypt.",
+        "sources": [
+          "https://kotn.com/a-year-in-review",
+          "https://en.wikipedia.org/wiki/Kotn"
+        ],
+        "researchedOn": "2026-10-26"
+      }
     },
     {
       "slug": "the-kiwi-scene",
@@ -4890,6 +5024,301 @@
         "https://www.alterna.ca/AboutUs/Community/Sponsorships/"
       ],
       "verified": true
+    },
+    {
+      "slug": "canadian-heritage-celebrate-canada-multiculturalism-day",
+      "name": "Celebrate Canada (Canadian Multiculturalism Day, June 27)",
+      "type": "government",
+      "industry": "Federal government / arts and culture",
+      "region": "Canada (national program, Ontario regional office)",
+      "priority": 1,
+      "amount": "Up to 100% of eligible expenses. Grants are capped at $100,000 per fiscal year. No typical amount is published.",
+      "deadline": "November 23, 2026, 4:00 p.m. ET (intake opened October 1, 2026)",
+      "deadlineDate": "2026-11-23",
+      "applyMethod": "portal",
+      "applyUrl": "https://pch-financement-funding.canada.ca/en-CA/",
+      "email": "info@pch.gc.ca",
+      "website": "https://www.canada.ca/en/canadian-heritage/services/funding/celebrate-canada.html",
+      "summary": "Federal funding for free, public, one-day events celebrating National Indigenous Peoples Day, Saint-Jean-Baptiste Day, Canadian Multiculturalism Day (June 27) or Canada Day. Unincorporated associations and educational institutions can apply.",
+      "angle": "Propose a free, public outdoor bhangra showcase and community dance workshop in Hamilton on June 27, 2027 for Canadian Multiculturalism Day. Frame it as Punjabi folk heritage shared with all Hamiltonians, with an open-to-all learn-bhangra session, Canadian symbols and accessibility built in.",
+      "eligibility": [
+        "Canadian not-for-profit organizations, including unincorporated associations (they must sign an Applicant Acceptance of Responsibility form)",
+        "Canadian educational institutions",
+        "Event must be one day, held June 21 to July 1, in Canada",
+        "Event must be free and open to the general public",
+        "Recurring clients must have submitted the previous year's final report"
+      ],
+      "funds": [
+        "Promotion and communications",
+        "Entertainment",
+        "Supplies and equipment rental",
+        "Ceremonial or traditional food (Multiculturalism Day and National Indigenous Peoples Day only)",
+        "Reasonable admin costs up to 15%",
+        "Reasonable domestic travel and hospitality"
+      ],
+      "excludes": [
+        "Primarily religious, political or commercial events",
+        "Fundraising or contests, and prizes tied to competitions",
+        "Multi-day events or extensions of regular programming",
+        "Events on school grounds during school hours or on private property",
+        "BBQ, general food and beverages, alcohol, and food for volunteers",
+        "Major equipment purchases"
+      ],
+      "questions": [
+        "Project objectives and description",
+        "Applicant capacity",
+        "Use of Canadian symbols",
+        "Partnerships",
+        "Accessibility",
+        "Expected participation",
+        "Balanced and realistic budget",
+        "Other revenue sources"
+      ],
+      "requiredDocs": [
+        "Applicant Acceptance of Responsibility form (unincorporated groups)",
+        "Direct Deposit Enrollment Form, bank-stamped or with a void cheque in the applicant's name",
+        "Delegation of signing authorities",
+        "Most recent statutes and bylaws (constitution)",
+        "Federal Business Number and proof of legal status if incorporated"
+      ],
+      "notes": "Separate from the Multiculturalism and Anti-Racism events stream already listed, though both are run by Canadian Heritage. The direct deposit form must be in the applicant's name, so MSB needs its own bank account or must apply through the MSU or McMaster. The event falls in summer, so MSB needs enough members in Hamilton in late June.",
+      "sources": [
+        "https://www.canada.ca/en/canadian-heritage/services/funding/celebrate-canada.html",
+        "https://www.canada.ca/en/canadian-heritage/services/funding/celebrate-canada/application-guidelines.html"
+      ],
+      "verified": true,
+      "contact": {
+        "name": "Celebration and Commemoration Program, Canadian Heritage",
+        "route": "Email info@pch.gc.ca or call 1-866-811-0055.",
+        "confidence": "high",
+        "source": "https://www.canada.ca/en/canadian-heritage/services/funding/celebrate-canada/application-guidelines.html"
+      },
+      "source": "auto-search",
+      "addedOn": "2026-10-26",
+      "lastChecked": "2026-10-26"
+    },
+    {
+      "slug": "mcmaster-eio-s4e-edia-community-event-microgrant",
+      "name": "McMaster Equity and Inclusion Office S4E Microgrants (EDIA Community Event / Impact Initiative)",
+      "type": "university",
+      "industry": "university",
+      "region": "McMaster",
+      "priority": 2,
+      "amount": "$500 (EDIA Community Event Microgrant) or $1,500 (EDIA Impact Initiative Microgrant)",
+      "deadline": "2026/27 cycle closed October 16, 2026. Next cycle expected around September 2027 (not yet announced).",
+      "deadlineDate": null,
+      "applyMethod": "form",
+      "applyUrl": "https://equity.mcmaster.ca/s4e-microgrant/",
+      "email": "equity@mcmaster.ca",
+      "website": "https://equity.mcmaster.ca/s4e-microgrant/",
+      "summary": "Campus microgrants from McMaster's Equity and Inclusion Office for events and initiatives that advance equity, inclusion and belonging. Active MSU-approved student groups can apply.",
+      "angle": "Pitch an inclusive bhangra event or a free learn-to-dance series as a belonging initiative that welcomes students of all backgrounds into Punjabi folk culture. Show campus impact through attendance and feedback surveys.",
+      "eligibility": [
+        "Enrolled McMaster undergraduate or graduate students",
+        "Active MSU-approved student groups",
+        "One stream and one microgrant per cycle",
+        "Projects in planning or starting within 3 months of applying"
+      ],
+      "funds": [
+        "Honoraria and guest speaker fees",
+        "Venue booking",
+        "Communications and promotion",
+        "Materials and equipment",
+        "Food and catering",
+        "Survey and feedback costs"
+      ],
+      "excludes": [
+        "Completed projects or events",
+        "More than one event per cycle",
+        "Projects with no substantive campus impact",
+        "Tuition, conference fees and conference travel",
+        "Stipends and paid research roles",
+        "Recipients of awards totalling over $10,000"
+      ],
+      "questions": [
+        "Financial officer or administrator contact who will receive the funds",
+        "Proposal (using the EIO proposal outline)",
+        "Whether similar projects exist on campus and how yours is distinct",
+        "Relationship to and consultation with the community served",
+        "Confirmed collaborators",
+        "Detailed budget (using the EIO template)"
+      ],
+      "requiredDocs": [
+        "Proposal using the provided outline",
+        "Budget breakdown using the provided template"
+      ],
+      "notes": "The 2026/27 deadline (October 16, 2026) has passed. Set a reminder for September 2027. This is a different fund from USIF and SLEF.",
+      "sources": [
+        "https://equity.mcmaster.ca/program-resources/equity-inclusion/",
+        "https://equity.mcmaster.ca/s4e-microgrant/"
+      ],
+      "verified": true,
+      "contact": {
+        "name": "Equity and Inclusion Office (S4E Stream 1 lead)",
+        "route": "Email equity@mcmaster.ca or call 905-525-9140 ext. 27581.",
+        "confidence": "high",
+        "source": "https://equity.mcmaster.ca/s4e-microgrant/"
+      },
+      "source": "auto-search",
+      "addedOn": "2026-10-26",
+      "lastChecked": "2026-10-26"
+    },
+    {
+      "slug": "hamilton-community-foundation-open-grants",
+      "name": "Hamilton Community Foundation Open Grants Program",
+      "type": "foundation",
+      "industry": "Community foundation",
+      "region": "Hamilton",
+      "priority": 3,
+      "amount": "Stream A up to $15,000. Stream B $15,001 to $35,000.",
+      "deadline": "Fall 2026 round closed October 15, 2026. Runs twice a year (May and October), so the next round is expected May 2027 (date not posted).",
+      "deadlineDate": null,
+      "applyMethod": "portal",
+      "applyUrl": "https://www.grantinterface.ca/Process/Apply?urlkey=hamiltoncommunityfoundation",
+      "email": "grants@hamiltoncommunityfoundation.ca",
+      "website": "https://www.hamiltoncommunityfoundation.ca/grants/",
+      "summary": "Hamilton's community foundation funds programming in education, health, recreation, environment and the arts that benefits Hamilton residents. Non-charities take part only through a registered charity partner.",
+      "angle": "Partner with a Hamilton registered charity (a youth, newcomer or seniors agency) and pitch a free community bhangra program, such as wellness dance sessions for youth or newcomers, that MSB delivers and the charity applies for.",
+      "eligibility": [
+        "Registered Canadian charities and qualified donees",
+        "Non-profits without charitable status only if sponsored by a registered charity (charitable partnership)",
+        "Programs must benefit Hamilton residents",
+        "One application per stream per calendar year"
+      ],
+      "funds": [
+        "Programming costs, including ongoing programs",
+        "Events that are part of a larger program",
+        "Up to 12% to the charity partner for related admin costs"
+      ],
+      "excludes": [
+        "Capital costs",
+        "Capacity building and operating costs",
+        "Summer camp subsidies (separate fund)",
+        "Standalone events not tied to a program"
+      ],
+      "questions": [
+        "Application via the Grant Interface portal, assessed against HCF's published Open Grants rubric",
+        "Whether the project takes place in Dundas",
+        "Final report on completion"
+      ],
+      "requiredDocs": [
+        "Charity registration or qualified donee status of the applying partner",
+        "Written partnership agreement if the applicant has no Hamilton presence",
+        "Final report (template provided) after the project"
+      ],
+      "notes": "MSB cannot apply alone and needs a registered charity as lead applicant. Realistic only for a multi-session community program, not a single show. Spring applicants hear back in late June.",
+      "sources": [
+        "https://www.hamiltoncommunityfoundation.ca/grants/",
+        "https://www.hamiltoncommunityfoundation.ca/open-grants-program-faq/"
+      ],
+      "verified": true,
+      "contact": {
+        "name": "Open Grants team (Sharon Charters, Elizabeth Webb)",
+        "route": "Email grants@hamiltoncommunityfoundation.ca or call 905-523-5600.",
+        "confidence": "high",
+        "source": "https://www.hamiltoncommunityfoundation.ca/grants/"
+      },
+      "source": "auto-search",
+      "addedOn": "2026-10-26",
+      "lastChecked": "2026-10-26"
+    },
+    {
+      "slug": "meridian-credit-union-good-neighbour-program",
+      "name": "Meridian Credit Union Good Neighbour Program",
+      "type": "corporate",
+      "industry": "credit union",
+      "region": "Ontario",
+      "priority": 3,
+      "amount": "$500 to $5,000 (local). $5,000 to $10,000 (multi-district or regional).",
+      "deadline": "Not stated for Good Neighbour. The separate Social Impact Sponsorship intake runs September 1 to 30 each year.",
+      "deadlineDate": null,
+      "applyMethod": "find-contact",
+      "applyUrl": "https://www.meridiancu.ca/about-meridian/community/community-sponsorships/good-neighbour-program",
+      "email": "",
+      "website": "https://www.meridiancu.ca/about-meridian/community-and-social-impact/the-good-neighbour-program",
+      "summary": "Meridian gives up to 4% of pre-tax profits to communities. Under Good Neighbour, local branches decide on grassroots grants of $500 to $5,000 for registered charities and not-for-profits.",
+      "angle": "Approach the nearest Hamilton-area branch. Frame free community bhangra workshops as inclusive physical and mental well-being programming that reaches newcomer youth, which matches Meridian's evaluation criteria.",
+      "eligibility": [
+        "Registered charities or not-for-profits",
+        "Project in a community where Meridian has a business presence",
+        "Direct community benefit"
+      ],
+      "funds": [
+        "Grassroots local initiatives (philanthropic, no benefits expected in return)"
+      ],
+      "excludes": [
+        "Individuals",
+        "Sports teams",
+        "Political organizations",
+        "Private or corporate foundations",
+        "Private fee-based schools",
+        "Religious or sectarian programs unless they benefit the whole community"
+      ],
+      "questions": [
+        "Does it build resilient communities in financial, mental or physical well-being?",
+        "Does it provide unique services to underserved communities?",
+        "Is it committed to a diverse and inclusive environment?",
+        "Does it deliver direct-impact programming to end users?"
+      ],
+      "requiredDocs": [],
+      "notes": "No application link or email is published. Local teams review requests, so contact a branch. MSB is not incorporated and would likely need the MSU as the not-for-profit applicant. Hamilton branch locations not confirmed.",
+      "sources": [
+        "https://www.meridiancu.ca/about-meridian/community-and-social-impact/the-good-neighbour-program",
+        "https://www.meridiancu.ca/about-meridian/community/community-sponsorships/good-neighbour-program"
+      ],
+      "verified": true,
+      "contact": {
+        "name": "Nearest Meridian branch (local team)",
+        "route": "Find a branch at meridiancu.ca/contact-us/find or call 1-866-592-2226.",
+        "confidence": "phone-only",
+        "source": "https://www.meridiancu.ca/about-meridian/community-and-social-impact/the-good-neighbour-program"
+      },
+      "source": "auto-search",
+      "addedOn": "2026-10-26",
+      "lastChecked": "2026-10-26"
+    },
+    {
+      "slug": "nanak-foods-community-sponsorship",
+      "name": "Nanak Foods Community Events and Sponsorships",
+      "type": "business",
+      "industry": "Food manufacturing (South Asian dairy and sweets)",
+      "region": "Canada",
+      "priority": 3,
+      "amount": "Not published (cash or product, case by case)",
+      "deadline": "Rolling",
+      "deadlineDate": null,
+      "applyMethod": "email",
+      "applyUrl": "https://nanakfoods.com/contact-us",
+      "email": "info@nanakfoods.com",
+      "website": "https://nanakfoods.com/philanthropy-community-services",
+      "summary": "South Asian-owned Canadian dairy and sweets brand whose community giving includes Vaisakhi Mela, Diwali events, the Vancouver International Bhangra Celebration and a UBC students' event.",
+      "angle": "Ask for in-kind product (lassi, sweets, paneer snacks) for the showcase or a Vaisakhi event in exchange for logo placement and social shoutouts. Cite their bhangra and student event record and offer a foothold with Ontario university audiences.",
+      "eligibility": [
+        "No published criteria. Supports health, arts, education and culture initiatives."
+      ],
+      "funds": [
+        "Community and cultural events (track record)",
+        "Student events (track record)"
+      ],
+      "excludes": [],
+      "questions": [],
+      "requiredDocs": [],
+      "notes": "Listed sponsorships are almost all in British Columbia (HQ Surrey BC) and no Ontario office appears on the site, so treat this as a cold pitch. The info@ inbox is general.",
+      "sources": [
+        "https://nanakfoods.com/philanthropy-community-services",
+        "https://nanakfoods.com/our-story",
+        "https://nanakfoods.com/contact-us"
+      ],
+      "verified": true,
+      "contact": {
+        "name": "Nanak Foods head office",
+        "route": "Email info@nanakfoods.com or call (604) 594-9190.",
+        "confidence": "medium",
+        "source": "https://nanakfoods.com/contact-us"
+      },
+      "source": "auto-search",
+      "addedOn": "2026-10-26",
+      "lastChecked": "2026-10-26"
     }
   ]
 }
