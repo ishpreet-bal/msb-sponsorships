@@ -1,0 +1,39 @@
+name: Funding monitor
+
+# Free replacement for the Claude scheduled search: no AI, runs on GitHub's servers.
+# Monday and Thursday at 8:47 am Toronto time (12:47 UTC in summer time, 7:47 am in winter).
+on:
+  schedule:
+    - cron: "47 12 * * 1,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: funding-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check pages and collect leads
+        run: node scripts/monitor.mjs
+      - name: Commit results
+        run: |
+          if git diff --quiet -- data/monitor.json; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "msb-funding-monitor"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/monitor.json
+          git commit -m "Funding monitor $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main

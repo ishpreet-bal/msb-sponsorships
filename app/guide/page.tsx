@@ -27,10 +27,10 @@ export default function Guide() {
 
       <h2 className="mt-10 font-display text-2xl font-semibold">How new opportunities get added</h2>
       <p className="mt-2 text-sm leading-relaxed">
-        A research job runs every Monday and Thursday morning. It searches for new grants, cultural event sponsors and
-        South Asian community sponsors in Ontario and across Canada, re-checks deadlines that are coming up, and researches a
-        batch of existing sponsors in more depth so their emails get more specific over time. New entries show a{" "}
-        <span className="chip bg-saffron text-white">New</span> badge.
+        A free check runs on GitHub every Monday and Thursday morning (no AI, no cost). It re-reads every opportunity&apos;s
+        page and flags the ones that changed, which usually means a new deadline or funding cycle, and it scans news searches
+        and McMaster and Hamilton feeds for new grants and sponsors. Everything it finds shows on the Updates page. To add a
+        feed or a search phrase, edit <code className="rounded bg-line px-1">data/feeds.json</code> in the repo.
       </p>
 
       <h2 className="mt-10 font-display text-2xl font-semibold">Adding or fixing an entry by hand</h2>

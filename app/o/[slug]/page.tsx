@@ -6,6 +6,7 @@ import { DeadlineBadge, PriorityBadge, TypeBadge } from "@/components/Badges";
 import Composer from "@/components/Composer";
 import OutreachPanel from "@/components/OutreachPanel";
 import QuestionDrafts from "@/components/QuestionDrafts";
+import { pageWatch } from "@/lib/monitor";
 
 export function generateStaticParams() {
   return allOpportunities().map((o) => ({ slug: o.slug }));
@@ -102,6 +103,23 @@ export default function OpportunityPage({ params }: { params: { slug: string } }
       <div className="mt-4">
         <OutreachPanel slug={o.slug} />
       </div>
+
+      {(() => {
+        const w = pageWatch(o.slug);
+        if (!w || (w.status !== "changed" && w.status !== "broken")) return null;
+        return (
+          <div className="mt-4 rounded-xl border-l-4 border-phulkari bg-phulkari-soft p-4 text-sm">
+            {w.status === "changed" ? (
+              <>
+                <strong>Their page changed on {w.lastChanged}.</strong> Check it for a new deadline or funding cycle before applying.
+                {!!w.deadlineHints?.length && <> Dates on the page now: {w.deadlineHints.join(", ")}.</>}
+              </>
+            ) : (
+              <><strong>Their page returned an error ({w.httpStatus}).</strong> The link may have moved; search for the new one.</>
+            )}
+          </div>
+        );
+      })()}
 
       {o.notes && (
         <div className="mt-4 rounded-xl border-l-4 border-saffron bg-saffron-soft p-4 text-sm">

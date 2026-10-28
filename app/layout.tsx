@@ -37,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="flex flex-wrap items-center gap-1 text-sm font-medium">
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/">Opportunities</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/tracker">Tracker</Link>
+                <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/updates">Updates</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/profile">Club &amp; senders</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/send">Send in bulk</Link>
                 <Link className="rounded-md px-3 py-1.5 hover:bg-saffron-soft" href="/guide">Guide</Link>
@@ -48,7 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Gate>{children}</Gate>
           </main>
           <footer className="border-t border-line py-6 text-center text-xs text-muted">
-            McMaster School of Bhangra · Opportunity list updated {UPDATED} · New opportunities are added automatically twice a week
+            McMaster School of Bhangra · Opportunity list updated {UPDATED} · Pages and news are checked automatically twice a week
           </footer>
         </TeamProvider>
       </body>

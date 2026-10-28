@@ -1,0 +1,23 @@
+{
+  "about": "Sources the free monitor checks twice a week. Add a feed or a search phrase here and it gets picked up on the next run.",
+  "keepIfMatches": "grant|fund|funding|sponsor|bursar|scholarship|award|applications? (open|now)|call for|intake|micro-?grant|community investment|cultural|multicultural|south asian|punjabi|sikh|vaisakhi|baisakhi|diwali|bhangra|student (club|group|initiative)",
+  "dropIfMatches": "obituar|lottery|casino|crypto|sports betting",
+  "feeds": [
+    { "name": "Hamilton arts opportunities (The Arty Crowd)", "url": "https://theartycrowd.ca/feed/" },
+    { "name": "McMaster Daily News", "url": "https://dailynews.mcmaster.ca/feed/" },
+    { "name": "McMaster Student Affairs", "url": "https://studentaffairs.mcmaster.ca/feed/" },
+    { "name": "McMaster Students Union", "url": "https://msumcmaster.ca/feed/" },
+    { "name": "Canadian Heritage news", "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcanadianheritage&type=newsreleases&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Canadian%20Heritage" }
+  ],
+  "newsSearches": [
+    "Vaisakhi sponsor Ontario",
+    "Diwali celebration sponsor Ontario",
+    "South Asian cultural event sponsorship Canada",
+    "bhangra competition sponsor Canada",
+    "student club grant Ontario university",
+    "multicultural events funding Canada applications open",
+    "Hamilton community grant applications open",
+    "Ontario arts council grant deadline",
+    "Punjabi community festival sponsor Brampton"
+  ]
+}
