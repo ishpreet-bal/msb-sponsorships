@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-12",
   "summary": {
     "pagesChecked": 80,
-    "pagesChanged": 4,
+    "pagesChanged": 6,
     "pagesBroken": 3,
-    "newLeads": 34
+    "newLeads": 18
   },
   "feeds": [
     {
@@ -40,17 +40,17 @@
     {
       "name": "News: Diwali celebration sponsor Ontario",
       "ok": true,
-      "items": 4
+      "items": 2
     },
     {
       "name": "News: Hamilton community grant applications open",
       "ok": true,
-      "items": 5
+      "items": 6
     },
     {
       "name": "News: multicultural events funding Canada applications open",
       "ok": true,
-      "items": 5
+      "items": 14
     },
     {
       "name": "News: Ontario arts council grant deadline",
@@ -70,7 +70,7 @@
     {
       "name": "News: student club grant Ontario university",
       "ok": true,
-      "items": 29
+      "items": 22
     },
     {
       "name": "News: Vaisakhi sponsor Ontario",
@@ -87,7 +87,7 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "mcmaster-undergraduate-student-initiatives-fund-usif": {
       "url": "https://studentaffairs.mcmaster.ca/undergraduate-student-initiatives-fund-form/",
@@ -97,31 +97,7 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": "2026-11-02",
-      "lastChecked": "2026-11-09"
-    },
-    "hamilton-arts-week-event-support-grant": {
-      "url": "https://theartycrowd.ca/arts-opportunities/hamilton-arts-week-2026-apply-for-event-support-grant/",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "td-corporate-donations-community-sponsorship": {
-      "url": "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf",
-      "status": "broken",
-      "httpStatus": 404,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "msu-clubs-funding-bridge-financing": {
-      "url": "https://msumcmaster.ca/governance/bylaws-policies/services-op-clubs-financial-procedures-revised-25n-2/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "1fedb853f7eb6f0b",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "rbc-sponsorships-rbc-sponsor-com": {
       "url": "https://rbc.sponsor.com/",
@@ -131,55 +107,82 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "food-basics-metro": {
-      "url": "https://www.foodbasics.ca/",
+    "msu-clubs-funding-bridge-financing": {
+      "url": "https://msumcmaster.ca/governance/bylaws-policies/services-op-clubs-financial-procedures-revised-25n-2/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "1fedb853f7eb6f0b",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "hamilton-arts-week-event-support-grant": {
+      "url": "https://theartycrowd.ca/arts-opportunities/hamilton-arts-week-2026-apply-for-event-support-grant/",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "microsoft-employee-champions-south-asian-erg": {
       "url": "https://www.microsoft.com/en-ca/",
       "status": "changed",
       "httpStatus": 200,
-      "hash": "da9590ce2b04b189",
+      "hash": "699c46240a4fa546",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-09",
-      "lastChecked": "2026-11-09"
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
     },
-    "city-of-hamilton-city-enrichment-fund-arts-festivals": {
-      "url": "https://www.hamilton.ca/sites/default/files/2024-09/cityenrichmentfund-Arts-Festivals-2025-Handbook.pdf",
+    "td-corporate-donations-community-sponsorship": {
+      "url": "https://www.td.com/document/PDF/corporateresponsibility/Applying-for-Funding-in-Canada.pdf",
       "status": "broken",
       "httpStatus": 404,
       "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "icici-bank-canada": {
-      "url": "https://www.icicibank.ca/",
-      "status": "changed",
-      "httpStatus": 200,
-      "hash": "c1e102b5bda5aaf5",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-09",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "firstontario-credit-union": {
       "url": "https://www.firstontario.com/about-us/community-impact/events",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "food-basics-metro": {
+      "url": "https://www.foodbasics.ca/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "0ef5521fad40f64f",
+      "deadlineHints": [],
+      "firstSeen": "2026-11-12",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "remitbee": {
       "url": "https://www.remitbee.com/help#help-contact-us",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "city-of-hamilton-city-enrichment-fund-arts-festivals": {
+      "url": "https://www.hamilton.ca/sites/default/files/2024-09/cityenrichmentfund-Arts-Festivals-2025-Handbook.pdf",
+      "status": "broken",
+      "httpStatus": 404,
+      "error": "",
+      "lastChecked": "2026-11-12"
+    },
+    "icici-bank-canada": {
+      "url": "https://www.icicibank.ca/",
+      "status": "changed",
+      "httpStatus": 200,
+      "hash": "be1b09e92d15278f",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
     },
     "the-smoke-shop": {
       "url": "https://thesmokeshopbbq.com/locations/",
@@ -189,24 +192,14 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "canadian-tire": {
       "url": "https://corp.canadiantire.ca/community/",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "maestro-mac-n-cheese": {
-      "url": "https://www.maestromacncheese.com/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "6f770d60a42d8b6a",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "ttc-charity-community-events-in-kind": {
       "url": "https://www.ttc.ca/doing-business-with-the-ttc/Charity-and-Community-Groups",
@@ -216,34 +209,24 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "unilever": {
       "url": "https://www.unilever.ca/contact",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "atlas-kitchens": {
-      "url": "https://custom-kitchen-cabinets.com/ontario/atlas-kitchens-limited/",
-      "status": "changed",
-      "httpStatus": 200,
-      "hash": "1948f50e4c677dca",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-05",
-      "lastChecked": "2026-11-09"
-    },
-    "romeo-pitaro-lawyers": {
-      "url": "https://www.romeopitaro.com/contact-us.html",
+    "maestro-mac-n-cheese": {
+      "url": "https://www.maestromacncheese.com/",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "248c809fa7c445d9",
+      "hash": "6f770d60a42d8b6a",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "royal-lepage-premium-one-realty": {
       "url": "https://www.royallepage.ca/en/office/ontario/vaughan/royal-lepage-premium-one-realty/5460/",
@@ -253,7 +236,17 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "romeo-pitaro-lawyers": {
+      "url": "https://www.romeopitaro.com/contact-us.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "248c809fa7c445d9",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "holmes-elite": {
       "url": "https://seonholmes.com/",
@@ -263,17 +256,17 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "mcmaster-student-life-enhancement-fund-slef": {
-      "url": "https://enhance.mcmaster.ca/slef/",
-      "status": "ok",
+    "atlas-kitchens": {
+      "url": "https://custom-kitchen-cabinets.com/ontario/atlas-kitchens-limited/",
+      "status": "changed",
       "httpStatus": 200,
-      "hash": "54f9715d07d21af5",
+      "hash": "1948f50e4c677dca",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChanged": "2026-11-05",
+      "lastChecked": "2026-11-12"
     },
     "wealthsimple": {
       "url": "https://wealthsimplefoundation.com/about/",
@@ -283,7 +276,84 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "xtm-inc": {
+      "url": "https://thecse.com/en/listings/technology/xtm-inc",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "bb1f79b9533006cb",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "mcmaster-student-life-enhancement-fund-slef": {
+      "url": "https://enhance.mcmaster.ca/slef/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "54f9715d07d21af5",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "salerno-realty-inc": {
+      "url": "https://www.salernorealestate.ca/contact-us/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "74993810c307a6b1",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "molson-coors": {
+      "url": "https://www.molsoncoors.com/ca-contact-us",
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "",
+      "lastChecked": "2026-11-12"
+    },
+    "assent": {
+      "url": "https://assets.assent.com/asset/36f8ed0d-99b8-4eda-ab13-793619053b03/-Report-2025-GRI-Disclosures.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "dc26718d558c77cb",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "indigo": {
+      "url": "https://www.indigoloveofreading.org/faq/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "b69cfda511c98930",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "lumency-inc": {
+      "url": "https://lumency.co/the-procurement-opportunity-in-sponsorship/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "4ad683f9a19bc7d5",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "metrolinx": {
+      "url": "https://assets.metrolinx.com/image/upload/v1663240007/Documents/Metrolinx/Metrolinx-General-Partnership-and-Sponsorship-Opportunities-Final.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "2a23bba399b0ae36",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "canadian-heritage-multiculturalism-anti-racism-program-events": {
       "url": "https://www.canada.ca/en/canadian-heritage/services/funding/multiculturalism-anti-racism/events/application-guidelines.html",
@@ -301,148 +371,7 @@
       ],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "xtm-inc": {
-      "url": "https://thecse.com/en/listings/technology/xtm-inc",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "bb1f79b9533006cb",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "molson-coors": {
-      "url": "https://www.molsoncoors.com/ca-contact-us",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "salerno-realty-inc": {
-      "url": "https://www.salernorealestate.ca/contact-us/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "74993810c307a6b1",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "assent": {
-      "url": "https://assets.assent.com/asset/36f8ed0d-99b8-4eda-ab13-793619053b03/-Report-2025-GRI-Disclosures.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "dc26718d558c77cb",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "deloitte": {
-      "url": "https://www.deloitte.com/ca/en/about/governance/canada-impact-report-2024/society/our-communities.html",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "a69b2629a1f52d98",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "general-mills": {
-      "url": "https://cd1.generalmills.ca/about-us/faq-main-gmi",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "fe0b00e05179ee6c",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "indigo": {
-      "url": "https://www.indigoloveofreading.org/faq/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "b69cfda511c98930",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "pathstone-mental-health-foundation": {
-      "url": "https://pathstonementalhealth.ca/contact/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "da1df41aa390b3e1",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "metrolinx": {
-      "url": "https://assets.metrolinx.com/image/upload/v1663240007/Documents/Metrolinx/Metrolinx-General-Partnership-and-Sponsorship-Opportunities-Final.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "2a23bba399b0ae36",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "venturepark": {
-      "url": "https://venturepark.ca/",
-      "status": "changed",
-      "httpStatus": 200,
-      "hash": "5638e5ffe8ee520e",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-02",
-      "lastChecked": "2026-11-09"
-    },
-    "sobeys": {
-      "url": "https://www.sobeys.com/community-action-fund",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "scotiabank": {
-      "url": "https://scotiabank.com/content/dam/scotiabank/canada/Final_Public_Facing_Donations_Policy_EN.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "a8807bfb7af31ded",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "lumency-inc": {
-      "url": "https://lumency.co/the-procurement-opportunity-in-sponsorship/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "4ad683f9a19bc7d5",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "pur-and-simple": {
-      "url": "https://pursimple.com/contact-us/",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "greek-market-cafe": {
-      "url": "https://www.greekmarketcorner.ca/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "99f563e5c0705ff0",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "telus": {
       "url": "https://www.telus.com/en/social-impact/giving-back/community-grants",
@@ -457,7 +386,71 @@
       ],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "general-mills": {
+      "url": "https://cd1.generalmills.ca/about-us/faq-main-gmi",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "fe0b00e05179ee6c",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "venturepark": {
+      "url": "https://venturepark.ca/",
+      "status": "changed",
+      "httpStatus": 200,
+      "hash": "c35aa0f5d0932cd9",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
+    },
+    "scotiabank": {
+      "url": "https://scotiabank.com/content/dam/scotiabank/canada/Final_Public_Facing_Donations_Policy_EN.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "a8807bfb7af31ded",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "deloitte": {
+      "url": "https://www.deloitte.com/ca/en/about/governance/canada-impact-report-2024/society/our-communities.html",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "a69b2629a1f52d98",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "greek-market-cafe": {
+      "url": "https://www.greekmarketcorner.ca/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "99f563e5c0705ff0",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "sobeys": {
+      "url": "https://www.sobeys.com/community-action-fund",
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "",
+      "lastChecked": "2026-11-12"
+    },
+    "pur-and-simple": {
+      "url": "https://pursimple.com/contact-us/",
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "",
+      "lastChecked": "2026-11-12"
     },
     "made-good-riverside-natural-foods": {
       "url": "https://www.madegoodfoods.com/pages/giving-back",
@@ -467,108 +460,24 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "pathstone-mental-health-foundation": {
+      "url": "https://pathstonementalhealth.ca/contact/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "da1df41aa390b3e1",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "sport-chek": {
       "url": "https://corp.canadiantire.ca/community/",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "best-buy": {
-      "url": "https://www.bestbuy.ca/en-ca/about/sponsor/bltad7375c14d907409",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "68e136506f335985",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "that-pretzel-dough": {
-      "url": "https://thatpretzeldough.com/contact-us/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "6d40f92b9d92ff82",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "sanremo-bakery": {
-      "url": "https://sanremobakery.com/contact/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "ce2b170444fc45c9",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "carbon-steel-profiles-limited": {
-      "url": "https://www.carbon.ca/contact/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "722ea720af22dd8f",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "corus-entertainment": {
-      "url": "https://www.corusent.com/faq/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "99b2267829a18520",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "pepsico": {
-      "url": "https://www.pepsico.ca/contact",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "p-g": {
-      "url": "https://pg-lex.my.salesforce-sites.com/CarehubStandalone/articles/en_US/FAQ/will-p-g-sponsor-our-event",
-      "status": "changed",
-      "httpStatus": 200,
-      "hash": "e1f6f95fe537ede5",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-09",
-      "lastChecked": "2026-11-09"
-    },
-    "oak-ridges-food-market": {
-      "url": "https://www.concordfoodcentre.com/contact-us-store-info/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "956299be4693c786",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "mlse": {
-      "url": "https://events.mlsefoundation.org/Static/Faq",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "b5a99a0b9ac976d3",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "nestl": {
-      "url": "https://www.madewithnestle.ca/help/sponsorship-donations-request-canada.html",
-      "status": "blocked",
-      "httpStatus": 403,
-      "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "yoga-bodies": {
       "url": "https://yogabodies.ca/contact/",
@@ -578,17 +487,84 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "inter-academy-toronto": {
-      "url": "https://interacademy-toronto.com/contact",
+    "best-buy": {
+      "url": "https://www.bestbuy.ca/en-ca/about/sponsor/bltad7375c14d907409",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "9389716418f1193f",
+      "hash": "68e136506f335985",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "that-pretzel-dough": {
+      "url": "https://thatpretzeldough.com/contact-us/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "6d40f92b9d92ff82",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "sanremo-bakery": {
+      "url": "https://sanremobakery.com/contact/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "ce2b170444fc45c9",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "carbon-steel-profiles-limited": {
+      "url": "https://www.carbon.ca/contact/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "722ea720af22dd8f",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "corus-entertainment": {
+      "url": "https://www.corusent.com/faq/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "99b2267829a18520",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "pepsico": {
+      "url": "https://www.pepsico.ca/contact",
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "",
+      "lastChecked": "2026-11-12"
+    },
+    "mlse": {
+      "url": "https://events.mlsefoundation.org/Static/Faq",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "b5a99a0b9ac976d3",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
+    },
+    "p-g": {
+      "url": "https://pg-lex.my.salesforce-sites.com/CarehubStandalone/articles/en_US/FAQ/will-p-g-sponsor-our-event",
+      "status": "changed",
+      "httpStatus": 200,
+      "hash": "e1f6f95fe537ede5",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": "2026-11-09",
+      "lastChecked": "2026-11-12"
     },
     "bell": {
       "url": "https://www.bce.ca/contact-us",
@@ -598,34 +574,41 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "kraft-heinz": {
-      "url": "https://www.kraftheinz.com/en-CA/groceriesforgood",
+    "nestl": {
+      "url": "https://www.madewithnestle.ca/help/sponsorship-donations-request-canada.html",
+      "status": "blocked",
+      "httpStatus": 403,
+      "error": "",
+      "lastChecked": "2026-11-12"
+    },
+    "oak-ridges-food-market": {
+      "url": "https://www.concordfoodcentre.com/contact-us-store-info/",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "cf4802ab6bae6c8f",
+      "hash": "956299be4693c786",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "kraft-heinz": {
+      "url": "https://www.kraftheinz.com/en-CA/groceriesforgood",
+      "status": "changed",
+      "httpStatus": 200,
+      "hash": "f70fc68d93c3b563",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
     },
     "ssense": {
       "url": "https://www.ssense.com/en-ca/customer-service/contact-us",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "interac-corp": {
-      "url": "https://www.interac.ca/contact-us/",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "4ac67c90eb01e77e",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "goodlife-fitness": {
       "url": "https://jobs.goodlifefitness.com/giving-back",
@@ -635,7 +618,7 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "cibc": {
       "url": "https://www.cibc.com/en/about-cibc/corporate-responsibility/community-and-sponsorship/funding-guidelines.html",
@@ -645,34 +628,34 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "first-capital": {
-      "url": "https://fcr.ca/company/about-first-capital/",
+    "inter-academy-toronto": {
+      "url": "https://interacademy-toronto.com/contact",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "1fe955ab41981d22",
+      "hash": "9389716418f1193f",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "chatime": {
       "url": "https://chatime.ca/franchising/",
       "status": "blocked",
       "httpStatus": 403,
       "error": "",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "beyond-meat": {
-      "url": "http://beyondmeat.hellosponsor.com/",
+    "interac-corp": {
+      "url": "https://www.interac.ca/contact-us/",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "0955a055dc7a57f7",
+      "hash": "4ac67c90eb01e77e",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "volkswagen": {
       "url": "https://www.vw.ca/en/about-volkswagen/contact.html",
@@ -682,27 +665,17 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "green-apple-dentist": {
-      "url": "https://greenappledentistry.ca/contact-us/",
+    "beyond-meat": {
+      "url": "http://beyondmeat.hellosponsor.com/",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "9a0ece9febb3976f",
+      "hash": "0955a055dc7a57f7",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "made-by-roka": {
-      "url": "https://supportontariomade.ca/manufacturer/richmond-hill/made-by-roka",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "112cfd448b3a7212",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "tiffinday": {
       "url": "https://supportontariomade.ca/manufacturer/toronto/tiffinday-8740925-canada-inc",
@@ -712,37 +685,37 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "bambeau": {
-      "url": "https://bambeau.ca/pages/faq",
+    "made-by-roka": {
+      "url": "https://supportontariomade.ca/manufacturer/richmond-hill/made-by-roka",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "86bfd21924629ec2",
+      "hash": "112cfd448b3a7212",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
-    "mcmaster-oce-catalyst-grants": {
-      "url": "https://forms.cloud.microsoft/r/k8m0Y3LHzB",
+    "green-apple-dentist": {
+      "url": "https://greenappledentistry.ca/contact-us/",
       "status": "ok",
       "httpStatus": 200,
-      "hash": "d5c60909d771a25c",
+      "hash": "9a0ece9febb3976f",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "saje": {
       "url": "https://www.saje.ca/pages/contact-us",
       "status": "changed",
       "httpStatus": 200,
-      "hash": "9081b64a9e59e205",
+      "hash": "3731c8747f2edff2",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-09",
-      "lastChecked": "2026-11-09"
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
     },
     "skin-to": {
       "url": "https://skin.to/",
@@ -752,17 +725,37 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "bambeau": {
+      "url": "https://bambeau.ca/pages/faq",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "86bfd21924629ec2",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "so-supple-organics": {
       "url": "https://sosuppleorganics.com/pages/contact-us",
       "status": "changed",
       "httpStatus": 200,
-      "hash": "43a904be936f18e6",
+      "hash": "87e58be0809ebcef",
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
-      "lastChanged": "2026-11-05",
-      "lastChecked": "2026-11-09"
+      "lastChanged": "2026-11-12",
+      "lastChecked": "2026-11-12"
+    },
+    "mcmaster-oce-catalyst-grants": {
+      "url": "https://forms.cloud.microsoft/r/k8m0Y3LHzB",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "d5c60909d771a25c",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "canadian-heritage-celebrate-canada-multiculturalism-day": {
       "url": "https://pch-financement-funding.canada.ca/en-CA/",
@@ -772,17 +765,7 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
-    },
-    "hamilton-cef-communities-culture-heritage-new-projects": {
-      "url": "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "ae68e217added5c0",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "alterna-savings-corporate-sponsorship": {
       "url": "https://www.alterna.ca/AboutUs/Community/Sponsorships/",
@@ -792,7 +775,7 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "hamilton-community-foundation-open-grants": {
       "url": "https://www.grantinterface.ca/Process/Apply?urlkey=hamiltoncommunityfoundation",
@@ -806,24 +789,24 @@
       ],
       "firstSeen": "2026-10-29",
       "lastChanged": "2026-11-02",
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "hamilton-cef-communities-culture-heritage-new-projects": {
+      "url": "https://www.hamilton.ca/sites/default/files/2025-09/cityenrichmentfund-Cultural-New-Projects-2026-Handbook.pdf",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "ae68e217added5c0",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "meridian-credit-union-good-neighbour-program": {
       "url": "https://www.meridiancu.ca/about-meridian/community/community-sponsorships/good-neighbour-program",
       "status": "broken",
       "httpStatus": 404,
       "error": "",
-      "lastChecked": "2026-11-09"
-    },
-    "nanak-foods-community-sponsorship": {
-      "url": "https://nanakfoods.com/contact-us",
-      "status": "ok",
-      "httpStatus": 200,
-      "hash": "91d41d44757854b4",
-      "deadlineHints": [],
-      "firstSeen": "2026-10-29",
-      "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
     },
     "msu-sponsorships-and-donations": {
       "url": "https://msumcmaster.ca/sponsorship-and-donations_2026/",
@@ -833,7 +816,17 @@
       "deadlineHints": [],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "nanak-foods-community-sponsorship": {
+      "url": "https://nanakfoods.com/contact-us",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "91d41d44757854b4",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     },
     "mcmaster-eio-s4e-edia-community-event-microgrant": {
       "url": "https://equity.mcmaster.ca/s4e-microgrant/",
@@ -847,10 +840,164 @@
       ],
       "firstSeen": "2026-10-29",
       "lastChanged": null,
-      "lastChecked": "2026-11-09"
+      "lastChecked": "2026-11-12"
+    },
+    "first-capital": {
+      "url": "https://fcr.ca/company/about-first-capital/",
+      "status": "ok",
+      "httpStatus": 200,
+      "hash": "1fe955ab41981d22",
+      "deadlineHints": [],
+      "firstSeen": "2026-10-29",
+      "lastChanged": null,
+      "lastChecked": "2026-11-12"
     }
   },
   "leads": [
+    {
+      "title": "Ontario’s underfunded post-secondary system turned international students into a financial lifeline; Peel is now facing the consequences - The Pointer",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOcmtDdDlseDR6eFJwYUU5NDVSbkowX1BRaENuYl91eW1VR3loWnl3cHlmdHFMVGI5eEtTeE5USHdQQU5mYkxFalhKdnZMYVhXTzBVOWRsWVZDNi1zNWFYZmFvZUVNbFJNN1FnV2JQcWw0N2N5Q3daV3I4QXRSeDFVRjdCUkV3MHpUaDd2a0M2LUI2YUZlV1cyQUw1aDh4Q0QyUGw0bWQySktNRjhKM25NcXRTTTYxWlRrSlVYUVR6aGJhQzlZZmdiOGRiUnR3V29tVXh6M29ldUxVN0RaM04zMk56Z000VHZob0pRWVdQQXRmT1VfMGMyblRGQmtYT0RPZW9IdXQxTWk?oc=5",
+      "source": "The Pointer",
+      "published": "2026-11-11",
+      "found": "2026-11-12",
+      "via": "News: student club grant Ontario university"
+    },
+    {
+      "title": "Scarborough student withdraws from college after Ontario suspends OSAP funding to private schools - Frequency News",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMDljU0lDanJvMFpXTFJxUm4xWFQ0bko3dFB6R0pEaUphUGNzNVhQdTh4QldWSkV1RVVIVHBRakx0MUJWQ2NkNTNTZG1xYWJDeUstOVdSN1NiTnNKS1ZxcXhNNnZ4endZUFJieGFBY1A1TVQyOVU2VEJEQ25LT2hnTnI0LTNzMWdMRHRjMGxxZ0xtZFdLd2U2Q0YxSzVNdlpjSUNEeWJ0dkxGYVFSaHBYMGM4NlFxb3pYN214R1RIdTZwMkhpTWNESHd4cVc?oc=5",
+      "source": "Frequency News",
+      "published": "2026-11-09",
+      "found": "2026-11-12",
+      "via": "News: student club grant Ontario university"
+    },
+    {
+      "title": "Ontario OSAP grants slashed to 25% - Money.ca",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1PYzg1WVk3RU5GVjMxcGViY0xZTU9NOW5YYUdLMmszV2hzTThFdk9kNXloeFc5ME1kVUhlWlVYbHJmVnRRNDFyMExSakZYV0FOWkVuczIzVTdSRUp1SW13YjZzZnQtYmZaZHZrNy1nYk5SQQ?oc=5",
+      "source": "Money.ca",
+      "published": "2026-11-10",
+      "found": "2026-11-12",
+      "via": "News: student club grant Ontario university"
+    },
+    {
+      "title": "‘It’s just not fair’: UofG students walk out in protest of new OSAP funding structure - www.frequencynews.ca",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNGYzM2V1bV9FQ3RncllwSC1fU3JWWFRxc29XdW1yeVVQdnc5Q0JkQnNQeWFsblYyT0U3eGZfZmNuY2VFYzkxNG1kTUQ4eU1KcFA2VjNobkJNSEZ1U0didnF6aE1US0x5M3hQRFUtdGRWLTh2S1U0ZER6bUxTa3A1S2ZtWGZKcFBWN1RNMk5PT1ItWmh3U3pJVm5hQUI5XzE3ZXVpa0xOX3VpR0c1aHdiY3Z1SUxKdk0?oc=5",
+      "source": "www.frequencynews.ca",
+      "published": "2026-11-12",
+      "found": "2026-11-12",
+      "via": "News: student club grant Ontario university"
+    },
+    {
+      "title": "Ford calls student protesters ‘naive’ amid tuition, OSAP backlash - NorfolkToday.ca",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPVTBRUGpmS21JeXFhRGJLYV9nVzlYZDgtZDQyQmRSa1VjOHBzb2pBYUUyZTVfNTVOY2RvcnVORHdwVGl2b0k4QTNobFRJZndGc3puN1U2MnhOdw?oc=5",
+      "source": "NorfolkToday.ca",
+      "published": "2026-11-10",
+      "found": "2026-11-12",
+      "via": "News: student club grant Ontario university"
+    },
+    {
+      "title": "Applications open for Activate Brantford Grant (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTXoyRVR3MkQ2TFRiQ1JyOHJveFFqMjFhU1UtelVIZGw1cElPUkxWNmFRa2FwWVFGRzJSblJvSTdYS2hCN000R1BHT3dNWm9xVkFzc3B0SXpOM1FtanYyREI2QlU0eXIyUFpVanA2SEdWVEhiVGlKLXpwUFJ6Qnl2TmlrZjI1N0I5Q0FQUG9WakFEbG1SdzhCV2VDXzZlMUhp0gGmAUFVX3lxTFA0a2tWVTNKdl9SOVB1YU50Nld0VlVSOU8yVEFMNjlyUExlejJZaWVVR0NFV1h5UEJOenBhWmJ2Qk1SUHZXZ0JCOHE0UG1BVjFmZ0g1RVRlMDhCcWpXLWlRWE9aSEFVVWN1dldwR0R2U2w2ZXRqb3YzN1RKc1BUaDNlUzVKNUZpVnl1WGN0V2hrQjlJc1V1T0pWYTY3Y0FxQ0x5NkpVM1E?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-22",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Applications open for New Events (Emerging) Grant Program (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZS1maFQxT0ZqVVVXSW9qWGRjLXFwNmcyRVpfbWloUGo5X0lQRXpkQVo4T0dvOUxGQ2ZvMkJLOE1aN1BPNGJYWDN2MWptWnotT2NLUVhoV0RTRzBlRER2aVlQeDVSMjNiN0p6cDFURnYtYldsMTZSWkh3NmVqUS10TGQxbTZQSVo1ZGo1QW9Bd0ZaZkpUb2JNNHNuX1c5QktYNkZGZVFB0gGrAUFVX3lxTE80WDBHSlBGdlVrb1o4M1FHd2RGNEVyZ2s4cDhYWmI2UGFtQ2RaZWprU2h0LTljQzVXQVo3UXcxV1VIa1BIajJfbHZDZHcyN2hsaEVsNGhDRGVkSlI2U2xtMkFuclFyc0x3TXRnNjRNRU44Qy1LbzNFMExWWkVKZ1dQZjFSamU5RkpjcThCRXdNa0w4dm9HNmdKSUQwVjVBRDZBbzRNRFpkVTJUYw?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-11-03",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Applications Open for Heritage Vitality Program Grant (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUmdCRjhpZlJ2bkhTYmowanI1QzRsQmUybE5MLUFNSnd3VjM1YkVEeTVBdGtqNVZLZ0VYRGdRdU85SGFDRGx1b0VrVFBBUDhwcFBGa3EwbjJqano1amM3SGVYelFpWWZnb291LWJfUXhkMTlXRXduWXFMZXlud0xCSDNla3BQcUdVak5lVVlyaTVkRUxpM1c1OEZ5blgtME92T0RlV2130gGrAUFVX3lxTE10NEczb2hFN01RY2tZRnROQVJwa1FRNWw5SlhFdmlZbHB4VFp6c1dyUy1KUjgzRVdockd0REtfTk04cVRrU2pvV2t4VGl6SVJna01DSW0zNF9Xa2hId3dyRGdpTjVHeWJkUFN5NW9lRUdsaFRJalZqeEVBRWZuanNHVU9xWlpPd3VpdTUyN0liSFJLaldPSTV2VWtaOE5jdDZKb21oSmoxTXlOVQ?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-22",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Apply Now: Multiculturalism and Anti-Racism Program (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTHo3Nk54X3JkUjJKTFpvbWlGNVZQOWQzQWkyQzlFSkdQc2lka2htQjVpQmJIQ2hwVDdLU1FlUnFmOVJVWWxvejRLdGRWZDdEdjNDQWVibHJSbDlSaDNHeUJXeGxBZFdxM2hPUHY2eERJSjhPZ3J0Z0hxX3pHZUFIa0kwY25yVzFLcnEzMjZmNkN1Zk1KeGh1YUJtSTNjTmxkOXVJSEVSa0x1TVJ0bzA5UtIBtgFBVV95cUxPa05LbXZGNXdTY3pQSDBjaTIwYnpkUW5RX05iWnljeUxCSDlUVGdRSTJpaFlFSms2ZzVERlZaSzducWNxTVYxZW1NMDZETTBXOHJIVmV1T0JWR0plbk1vcEVVZUZucEc0S1FSdHBwSjFmOTVleW04REh3LUlmVGpXVU85VHBnYm9IRFFZYmZwOHV1WmlSdDNWbXhMeVY4NmNMUnNpakZnRWxrdDRpczZoMkxFZ0Jtdw?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-14",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Request for Applications: Sponsorship Grant (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzg5QkdnVk1lMEI3V0UyQjlFUkQwNHppMDhoVHpnd0R2bHlwRmdTNkRobkc4WVBiMDFUZlVYQ25RZzY4ZUlaSVVGUnJHWHlyYWllLW85bHpVcGdqcGFtN09ydlFpTVdRWmlDOTE0VGh3eGFXS01iZ0plYzlmTW1XbWRGSzAxMHBSU25zWWliVnBTX0JmVnJVLVZDRm54d2tndjg0TGZpNNIBrAFBVV95cUxNZHRzY20wN25ZcGwtRDB3VzA5UVZuV3dxTXI3RGdNaWMwTkpCNzZicUNQYl94NGVodnAyMV9uN2MwNEFPOE1lbUVXQXNQN00wdmJPV3lMX3h4N0cwSUhiRmFKMDdHRHdOMzdZcnd1bzVXNU5EYzVvVFZMTEpFVTNlSFREM1ZMTUhEVktXVDV2dldtaXVjYmZiYTd0T0l6R3hQaVV2T21ibnR1a0w3?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-29",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Apply now for Parks, Recreation and Community Events Grant Program (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUWhaVWZldWdXNHlhcW84dC03MHNuNk5aSXVWd0FBZjNGQTBvZk9RQkx6REFNeC1HZk5pdzNZaHNYMzBidlk5VmlpSi1WV0pNSTRNOW9xWWE1bUEwTnRCbEhINFQ3NGZwczhfZzVfT1BMOVBCRVlNclNPYUI3bmVLSUstOWVUdklDN1I1ZzRuRTg4OHNQVXVWQVFweV82MG1OU3lsYnBRRWVhNDFTMnFITXVSUUY3NTc1YWx0NXpNU1dUMWpDRHfSAcsBQVVfeXFMTU1zWVd5QTdZbnFZcm12T2FpQ3BtY0ZoMEdkNlpWOUhzbVRsZzN2QWxLUkNRYXJtX0RlVWFQUzZOWHhWSGZpdWFablNoSFNNTXppaGFTZl83TjVnSy03eUtMeWU1Z2xJdml2R2xyMFdTQkVrN1VQWTNmRGJmZC02a2dIVU5aVm1IVGE3d2VlTWxsdEZUa0Eta1ZqbTg1ak92ZmRlYkdfWmMtbEx4R3JKZVFXMFNiWXpUT3Z5UFZWdWNaZ0UzZDNJUGlySVE?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-14",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Applications open for Community Events Grant Program (Australia) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONVRDenptUkpMSXd5NTQtZEdBTVIwN0VHMTQzWmxrRDgzVnBSWHd6V0Y4ZWhDSk8tbFUzOGFfR294Vk9qRVF6cHBfUElxNVhkZFpCQjNwajcwcUlORFZDa0FoX2ZDYWhiVEVTekhudHU2SFJzRi1LZ1BpWFNBNTRWT0MwZjdWWjI4UmhCS0hUdW5WdkFJZFhaQlZCaXRsVWtOU1ZNV1FRSmR2RWdoNGdkWjg2dEVyeHF3bk1qQTdGNnrSAcYBQVVfeXFMTWJyRGt4RU5udU9mbXlkWVV6aC0tYVpQZDByMkRLLUQ1MG51WEVHRVdfakxTWmEzTHRXYVktX28wY1lVdHBTNHRQcGRZUUtkYUMzZThKN1h2N25mbXdrMzhFNm5SWEdVQUtxTjZrZlEtd3l5Ykg3YVFndE9WVFNscUY4di03NFNZUVZmV2JFZGFDcTZSSnQxZ2ozTWxnVkNUNEdSQVhmVmUtT2NFMnYtYk9qOG5mWEtOODJTOXY2N3lDTnEzazhR?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-11-10",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Open Call for Community Festival Fund (United Kingdom) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWWZJREZiQ3U1M3I2Y1VlWjlTZm80YWptVkpGU1lOVXFxYUJKalN4Y2hGTTE4NXNpaUZwa2h3NWw4SDlWUkdGZXZEX0czVHJrcWFuVWQ2S25oaTdyY2IwY09obEIxSzVISWstOEZLNFlBeElOcmkzdlFPUWF1TTRCeEU5NWluVXRwallGRm5iTkxDTzZhNXdVNDlUUWxSTWw2d3NvZElJSDduNnJtWkkxMUQtbUZNcGRYY1Q0WmNfUnktRDJOWVFr0gHMAUFVX3lxTE9ldVY2eWZFR3VJS0JHWWp4WkczRlFGVWFwY25lamdQbE1FbzJibXQxTW1QcVRaTjV6bENVYTVYbHFVcjBueVUyYTYweFpIQktQNmxYUTlhd3FFWDJnSDdrVWlmR3pkSnltbjJfOTEtNUNfRkZmNWdxMnlGQ09BN1QzMDdxbmR3NHNRSkNXQWVCeW1lTUg2RjJxNXd5MS1HaEZqTEhjei1VUXNzckF5NWpEU2tBbGVCbFBVSTdPcnFQMHBaQnVlbWtvLUVnMA?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-23",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Open Call: Community Events Fund and Christmas Tree Switch-On Event (United Kingdom) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTjF2cGVHNlBWY1J5SVFkdUxFdUlid2p0N0w2aXJXTjJSOGxLNm9CVlh3a0U0OEYxdmRjR0FnSmVvTGxzTWx2X2xUQ3hBampmZDhIaUQxcFlOOU45a3ktalV0OG9Bc3plbGRlRTlzS2M1X0tGN0dXZFF2QmNMOWxtajVMWWJlQ1ZyTGlGQW4wSDQ4b0tDb0toRm9kR1p1bzBIVGEwNjAyMmJoRXlabkxLNmd4WDRwZmxGelNzSTczNmFQbDUzQWdIREt4MkQ5dmxSbWfSAdcBQVVfeXFMT3RmaENQTHpKQzctclFLNjVhaUIyUFhTcnBwTlpMQ1ZxWUd3dkU2bnQySVhuTnBRQWVNR1Z5OXljSWtyOXJlckliLWgxQWZMZXp2OWxsVDZ0MlY0NHNCZjFFSDJpSl96dTNuQ3hYSVJkdzQwRjd4VEE2RjRtLUZmNzFWTTE3VnNTU1RnckNKbENzUjdfQm9CSHRrbm1hZkZyejlGUml4RmpqTDRfb01NRng1aUVYbTVqVnhidllaaF9VVnpZZE1GWTVnUjVMZDJZdllvb1RiUjQ?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-11-09",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Entries open for 40th International Theatrical Festival VALISE - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWnhsaER1ZG15TmJKXzFGWmtBSW5zaml5MHIyWXJrenpYVGs4a3Iwc0dncTE4X2NBNl80LVhEaEJpbFg4dG9aaTNEVFVIMHZ2M0hJMFRWYWVQU2VsTEpvTnlNMzFBd2JLMjZOcmxmQ1VSVEZlNjQxZ3gxd3k5R2wySkV5dU5KLVdCRzZJZnFza2lMeWx3LTI5ei1IQnIwNGFfQzRVM2ptenF0QlBfMkFYbzZtbS1BUdIBuwFBVV95cUxPcG93Z3p6MmJFNUxSV0VDMU5JdDI4bG94NnJZWkREU3ROTl8xS0NVWFRCS2R0R3B6YkNIMnRUc2FqU3pDcjA1SV8xbTlBQzVaekFpTGpPeTBFRmZjWWlOb1JSa214clY4Vy1EcWoxSk9aUTVBcGh2NWdOQTZSdG9qTUg1SXNtdlYzQndXaEpSdlJtMmZVR2tuWDlIbHludDVPcnN4QnAxZFBEcVFwRXZlRy1yZ0prV3g5VXhB?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-11-10",
+      "found": "2026-11-12",
+      "via": "News: multicultural events funding Canada applications open"
+    },
+    {
+      "title": "Call for Applications: Development Contribution Fund (New Zealand) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRFZoTUpYazlEQVJobHUtd1RPVzdMLWpJa0xvS3AxS3p0b1dqWkUxR1ZRZk1SLURsSHBUMkFkQkpCVlN3Yk55YWRmVWd5VGxESjd6NlZJcGJhTERNY25va1RzYTFZZG9WY0NFSWtXcng2XzZ3QmF0YWdtX2JMbV9ZT0cwNHpDR1lNNmY5eXdLVGpMS2pFLXJ4SmxaWlBfZ2QyUWR4RUFrOHZubGFIRXA0TVloblBkOW5uWWllMDdmVmRUZ9IBxwFBVV95cUxNSjJWdlRIN2lVeWxjamJQVFd5T0lCd3lNUmdNbnp6cmlBdlFyTmw2ckl3Y3NMdjZxNEJFT1BsbmVVZkM4djlWdnczUUN3eUNZNmRmUl9LMzNvN3FTQnZleE80RUpJZFhqTTlpMlhZZ3QyYTNqVlFTTWEtMTN5YllleHQ0QjY3bDNoaUJCR3Y4dGZkbDY0Q3BvZU5XNURwUE12M0FsNkdMOHQ3dkZtX2ZuRld5U0IzNjl6TzUxV0FmdnpfZHk2UjA0?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-30",
+      "found": "2026-11-12",
+      "via": "News: Hamilton community grant applications open"
+    },
+    {
+      "title": "South Lanarkshire Council approves new £200,000 fund for community projects - www.eastkilbridetoday.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ1BCQlJXTTlnSllVd0JtbVF5WmMzMXB1ZDAwOEZmVmdnSVh0MXBVZVVMYUdaU2dERV94czFXZGRObW5PVjlUSE01N3h0YThnMVNMaUkzem5ubWtqOHBQSmJWX2JYTzR1aFoyWW9ieTRXZDg5T2ROb0k5bGhGbFZDU2VlMkl1VEF1U2dYRFNDdlNtT2FuckY5VDc1WXcyb2xZX3phN0ZlNWpTdw?oc=5",
+      "source": "www.eastkilbridetoday.co.uk",
+      "published": "2026-11-11",
+      "found": "2026-11-12",
+      "via": "News: Hamilton community grant applications open"
+    },
+    {
+      "title": "Request for Proposals: Touring and Circulation Projects (Canada) - fundsforNGOs - Grants and Resources for Sustainability",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMnd1Y3V6SGVOb0ZUa3hRZTNUTXc1dFFURFpWQ1lGa3huN2czYzhZMnE0SHp3YUZ1VTFEeWthdXBiMDFwS2otSEN1NksxZkRsZHRITTZYZFVuNm5tSjdtRmdsTjFGUmtDZ1hpWk9YSUdYdF9QOHg5LXY3QnNRRGwtaUFfeFJGbXVSNjl1Y3RZVjhHSjNiUGVDUERCWWlld3U0MTBMWnFDVdIBrAFBVV95cUxQcVdpcTJSS0FBOWs5VktGTXhSOEd0QnpTM184bXh0X0Y1UE5vZVBtUGs3dFRqSm1JQjJ2S2dzV0RTNUhKRmg0d3pLZFpCQ2lJSnkwOENRQXp3QWk1cXBvZWJHdzZOSDlBT1pwNzFzYXVFMExXY3BCeTRXNmhHRzBMUEFNMEhYQjlNYUZZY3ZyVVRSeVJXUXN2ZzgzSlZtYkFJYWlyUjNCeC1hYXNY?oc=5",
+      "source": "fundsforNGOs - Grants and Resources for Sustainability",
+      "published": "2026-10-22",
+      "found": "2026-11-12",
+      "via": "News: Ontario arts council grant deadline"
+    },
     {
       "title": "Festival of drones? Why these Ontario towns are replacing Diwali’s famed fireworks with drone shows - Toronto Star",
       "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOUEVWV1d4TlduVk5reG83OWZHcy1DZmNmQ0VWeHhxQTJKeUNrMGs1dUpBOFpRUnRtaE9wamdzaUNxOWR4dzE4MDJhQTE1WHdIN0dlWmdqQU5NSDlkTllPNmlHM1paX2UtRkNkRHR5Y1RKQ2I4Nkt2c05jZlU3NjRQZ2ZIWk41ekdQWDMzQ3Y1dExaaVBxNkVlZy1RcWc2NHJCUWtReUp1WkpzeU82SHpnMk9lLTNxdDJYREVncGpqQUkyUXdpUWlLLXhqa3BoNnpNdFR4ZlBxb1ZhZUpGYkZkVmd2X1AybTVhYzJiaW1XMFVKNmwydG54U3pxeUtPTGFoSnEyTjJNSTdiQ3BnUXc?oc=5",
