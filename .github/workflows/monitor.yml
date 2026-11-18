@@ -23,6 +23,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Keep the club database awake
+        # Free Supabase projects pause after a week with no traffic, which breaks the site's login.
+        # A passcode check twice a week counts as activity. The key is the site's public, publishable key.
+        continue-on-error: true
+        run: |
+          curl -sS -m 30 -X POST "https://zvbjogfxkkhmshiyrjha.supabase.co/rest/v1/rpc/msb_check" \
+            -H "apikey: sb_publishable_YvcOwz6asla8JaGEBxurhw_mV4-XAcK" \
+            -H "Content-Type: application/json" -d '{"p":"ping"}'
       - name: Check pages and collect leads
         run: node scripts/monitor.mjs
       - name: Commit results
